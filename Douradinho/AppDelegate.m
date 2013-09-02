@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PlayGameViewController.h"
 
 @implementation AppDelegate
 
@@ -15,7 +16,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+	
+	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[PlayGameViewController alloc] initWithNibName:nil bundle:nil]];
+	[nav setNavigationBarHidden:YES animated:NO];
+	
+	self.window.rootViewController = nav;
+	
     [self.window makeKeyAndVisible];
+	
     return YES;
 }
 

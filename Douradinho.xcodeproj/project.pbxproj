@@ -19,6 +19,15 @@
 		0C29CA8A17D524680027487F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C29CA7217D524680027487F /* UIKit.framework */; };
 		0C29CA9217D524680027487F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CA9017D524680027487F /* InfoPlist.strings */; };
 		0C29CA9417D524680027487F /* DouradinhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CA9317D524680027487F /* DouradinhoTests.m */; };
+		0C29CAFF17D52BD70027487F /* EPCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CAAC17D52BD70027487F /* EPCCategories.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C29CB0017D52BD70027487F /* EPCDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CAAE17D52BD70027487F /* EPCDebug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C29CB2D17D52DF70027487F /* MDPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB2A17D52DF70027487F /* MDPiece.m */; };
+		0C29CB2E17D52DF70027487F /* MDPieceOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB2C17D52DF70027487F /* MDPieceOne.m */; };
+		0C29CB3317D52E060027487F /* PlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3117D52E060027487F /* PlayGameViewController.m */; };
+		0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CB3217D52E060027487F /* PlayGameViewController.xib */; };
+		0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3617D52E650027487F /* MDPieceTen.m */; };
+		0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3917D52E960027487F /* MDPieceHundred.m */; };
+		0C29CB5D17D53D6E0027487F /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB4F17D53D6E0027487F /* KGNoise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,24 @@
 		0C29CA8F17D524680027487F /* DouradinhoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DouradinhoTests-Info.plist"; sourceTree = "<group>"; };
 		0C29CA9117D524680027487F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C29CA9317D524680027487F /* DouradinhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouradinhoTests.m; sourceTree = "<group>"; };
+		0C29CAAB17D52BD70027487F /* EPCCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCCategories.h; sourceTree = "<group>"; };
+		0C29CAAC17D52BD70027487F /* EPCCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCCategories.m; sourceTree = "<group>"; };
+		0C29CAAD17D52BD70027487F /* EPCDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCDebug.h; sourceTree = "<group>"; };
+		0C29CAAE17D52BD70027487F /* EPCDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCDebug.m; sourceTree = "<group>"; };
+		0C29CAAF17D52BD70027487F /* EPCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCDefines.h; sourceTree = "<group>"; };
+		0C29CB2917D52DF70027487F /* MDPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPiece.h; sourceTree = "<group>"; };
+		0C29CB2A17D52DF70027487F /* MDPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPiece.m; sourceTree = "<group>"; };
+		0C29CB2B17D52DF70027487F /* MDPieceOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPieceOne.h; sourceTree = "<group>"; };
+		0C29CB2C17D52DF70027487F /* MDPieceOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceOne.m; sourceTree = "<group>"; };
+		0C29CB3017D52E060027487F /* PlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGameViewController.h; sourceTree = "<group>"; };
+		0C29CB3117D52E060027487F /* PlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGameViewController.m; sourceTree = "<group>"; };
+		0C29CB3217D52E060027487F /* PlayGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayGameViewController.xib; sourceTree = "<group>"; };
+		0C29CB3517D52E650027487F /* MDPieceTen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPieceTen.h; sourceTree = "<group>"; };
+		0C29CB3617D52E650027487F /* MDPieceTen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceTen.m; sourceTree = "<group>"; };
+		0C29CB3817D52E960027487F /* MDPieceHundred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPieceHundred.h; sourceTree = "<group>"; };
+		0C29CB3917D52E960027487F /* MDPieceHundred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceHundred.m; sourceTree = "<group>"; };
+		0C29CB4E17D53D6E0027487F /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
+		0C29CB4F17D53D6E0027487F /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				0C29CA7417D524680027487F /* Douradinho */,
+				0C29CAA717D52BD70027487F /* Vendors */,
 				0C29CA8D17D524680027487F /* DouradinhoTests */,
 				0C29CA6D17D524680027487F /* Frameworks */,
 				0C29CA6C17D524680027487F /* Products */,
@@ -107,9 +135,11 @@
 		0C29CA7417D524680027487F /* Douradinho */ = {
 			isa = PBXGroup;
 			children = (
+				0C29CA8017D524680027487F /* Images.xcassets */,
 				0C29CA7D17D524680027487F /* AppDelegate.h */,
 				0C29CA7E17D524680027487F /* AppDelegate.m */,
-				0C29CA8017D524680027487F /* Images.xcassets */,
+				0C29CB2717D52DF70027487F /* Core */,
+				0C29CB2F17D52E060027487F /* Views */,
 				0C29CA7517D524680027487F /* Supporting Files */,
 			);
 			path = Douradinho;
@@ -142,6 +172,93 @@
 				0C29CA9017D524680027487F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C29CAA717D52BD70027487F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB3D17D53D6E0027487F /* KGNoise */,
+				0C29CAA817D52BD70027487F /* EPCKit */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		0C29CAA817D52BD70027487F /* EPCKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CAAA17D52BD70027487F /* Addons */,
+			);
+			path = EPCKit;
+			sourceTree = "<group>";
+		};
+		0C29CAAA17D52BD70027487F /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CAAB17D52BD70027487F /* EPCCategories.h */,
+				0C29CAAC17D52BD70027487F /* EPCCategories.m */,
+				0C29CAAD17D52BD70027487F /* EPCDebug.h */,
+				0C29CAAE17D52BD70027487F /* EPCDebug.m */,
+				0C29CAAF17D52BD70027487F /* EPCDefines.h */,
+			);
+			path = Addons;
+			sourceTree = "<group>";
+		};
+		0C29CB2717D52DF70027487F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB2817D52DF70027487F /* Pieces */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0C29CB2817D52DF70027487F /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB2917D52DF70027487F /* MDPiece.h */,
+				0C29CB2A17D52DF70027487F /* MDPiece.m */,
+				0C29CB2B17D52DF70027487F /* MDPieceOne.h */,
+				0C29CB2C17D52DF70027487F /* MDPieceOne.m */,
+				0C29CB3517D52E650027487F /* MDPieceTen.h */,
+				0C29CB3617D52E650027487F /* MDPieceTen.m */,
+				0C29CB3817D52E960027487F /* MDPieceHundred.h */,
+				0C29CB3917D52E960027487F /* MDPieceHundred.m */,
+			);
+			path = Pieces;
+			sourceTree = "<group>";
+		};
+		0C29CB2F17D52E060027487F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB6817D542F60027487F /* Main */,
+				0C29CB6717D542ED0027487F /* Play Game */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C29CB3D17D53D6E0027487F /* KGNoise */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB4E17D53D6E0027487F /* KGNoise.h */,
+				0C29CB4F17D53D6E0027487F /* KGNoise.m */,
+			);
+			path = KGNoise;
+			sourceTree = "<group>";
+		};
+		0C29CB6717D542ED0027487F /* Play Game */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
+				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
+				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
+			);
+			name = "Play Game";
+			sourceTree = "<group>";
+		};
+		0C29CB6817D542F60027487F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C29CA7917D524680027487F /* InfoPlist.strings in Resources */,
+				0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */,
 				0C29CA8117D524680027487F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C29CB3317D52E060027487F /* PlayGameViewController.m in Sources */,
+				0C29CB2E17D52DF70027487F /* MDPieceOne.m in Sources */,
+				0C29CB0017D52BD70027487F /* EPCDebug.m in Sources */,
+				0C29CB2D17D52DF70027487F /* MDPiece.m in Sources */,
+				0C29CB5D17D53D6E0027487F /* KGNoise.m in Sources */,
+				0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */,
+				0C29CAFF17D52BD70027487F /* EPCCategories.m in Sources */,
+				0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */,
 				0C29CA7F17D524680027487F /* AppDelegate.m in Sources */,
 				0C29CA7B17D524680027487F /* main.m in Sources */,
 			);
@@ -313,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -345,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
