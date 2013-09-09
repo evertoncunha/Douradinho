@@ -1,0 +1,3 @@
+[submodule "Vendors/EPCKit"]
+	path = Vendors/EPCKit
+	url = http://www.github.com/evertoncunha/EPCKit
