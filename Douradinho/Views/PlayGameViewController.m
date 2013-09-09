@@ -23,8 +23,8 @@
 	
 	KGNoiseLinearGradientView *view = (id)self.view;
 	
-	view.backgroundColor = [UIColor colorWithWhite:0.85 alpha:1];
-	view.alternateBackgroundColor = UIColorFromRGB(0xf0efda);
+	view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
+	view.alternateBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
 	
 	
 	view = [_countAreaView.subviews firstObject];
@@ -32,6 +32,8 @@
 	view.alternateBackgroundColor = UIColorFromRGB(0xf0efda);
 	
 	[self refreshCount];
+	
+//	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
 }
 
 - (void)piece:(MDPiece *)piece movedToLocation:(CGPoint)location {
