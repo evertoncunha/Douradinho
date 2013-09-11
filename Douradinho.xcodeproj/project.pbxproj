@@ -28,6 +28,10 @@
 		0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3617D52E650027487F /* MDPieceTen.m */; };
 		0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3917D52E960027487F /* MDPieceHundred.m */; };
 		0C29CB5D17D53D6E0027487F /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB4F17D53D6E0027487F /* KGNoise.m */; };
+		0C7930B117DFD8FE00849E7B /* PlayChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */; };
+		0C7930B217DFD8FE00849E7B /* PlayChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */; };
+		0C7930B817DFDC6C00849E7B /* PlayUnlimitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7930B617DFDC6C00849E7B /* PlayUnlimitedViewController.m */; };
+		0C7930B917DFDC6C00849E7B /* PlayUnlimitedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7930B717DFDC6C00849E7B /* PlayUnlimitedViewController.xib */; };
 		0CBB6BB817D544390049FFAE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB6BB617D544390049FFAE /* MainViewController.m */; };
 		0CBB6BB917D544390049FFAE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB6BB717D544390049FFAE /* MainViewController.xib */; };
 /* End PBXBuildFile section */
@@ -77,6 +81,12 @@
 		0C29CB3917D52E960027487F /* MDPieceHundred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceHundred.m; sourceTree = "<group>"; };
 		0C29CB4E17D53D6E0027487F /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
 		0C29CB4F17D53D6E0027487F /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
+		0C7930AE17DFD8FE00849E7B /* PlayChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayChoiceViewController.h; sourceTree = "<group>"; };
+		0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayChoiceViewController.m; sourceTree = "<group>"; };
+		0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayChoiceViewController.xib; sourceTree = "<group>"; };
+		0C7930B517DFDC6C00849E7B /* PlayUnlimitedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayUnlimitedViewController.h; sourceTree = "<group>"; };
+		0C7930B617DFDC6C00849E7B /* PlayUnlimitedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayUnlimitedViewController.m; sourceTree = "<group>"; };
+		0C7930B717DFDC6C00849E7B /* PlayUnlimitedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayUnlimitedViewController.xib; sourceTree = "<group>"; };
 		0CBB6BB517D544390049FFAE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		0CBB6BB617D544390049FFAE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		0CBB6BB717D544390049FFAE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -236,6 +246,7 @@
 			children = (
 				0C29CB6817D542F60027487F /* Main */,
 				0C29CB6717D542ED0027487F /* Play Game */,
+				0C7930B317DFD90300849E7B /* PlayChoice */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,9 +263,8 @@
 		0C29CB6717D542ED0027487F /* Play Game */ = {
 			isa = PBXGroup;
 			children = (
-				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
-				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
-				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
+				0C7930B417DFDC5600849E7B /* 111 */,
+				0C7930BA17DFDC6F00849E7B /* Unlimited */,
 			);
 			name = "Play Game";
 			sourceTree = "<group>";
@@ -267,6 +277,36 @@
 				0CBB6BB717D544390049FFAE /* MainViewController.xib */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		0C7930B317DFD90300849E7B /* PlayChoice */ = {
+			isa = PBXGroup;
+			children = (
+				0C7930AE17DFD8FE00849E7B /* PlayChoiceViewController.h */,
+				0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */,
+				0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */,
+			);
+			name = PlayChoice;
+			sourceTree = "<group>";
+		};
+		0C7930B417DFDC5600849E7B /* 111 */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
+				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
+				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
+			);
+			name = 111;
+			sourceTree = "<group>";
+		};
+		0C7930BA17DFDC6F00849E7B /* Unlimited */ = {
+			isa = PBXGroup;
+			children = (
+				0C7930B517DFDC6C00849E7B /* PlayUnlimitedViewController.h */,
+				0C7930B617DFDC6C00849E7B /* PlayUnlimitedViewController.m */,
+				0C7930B717DFDC6C00849E7B /* PlayUnlimitedViewController.xib */,
+			);
+			name = Unlimited;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,10 +384,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7930B917DFDC6C00849E7B /* PlayUnlimitedViewController.xib in Resources */,
 				0C29CA7917D524680027487F /* InfoPlist.strings in Resources */,
 				0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */,
 				0C29CA8117D524680027487F /* Images.xcassets in Resources */,
 				0CBB6BB917D544390049FFAE /* MainViewController.xib in Resources */,
+				0C7930B217DFD8FE00849E7B /* PlayChoiceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7930B817DFDC6C00849E7B /* PlayUnlimitedViewController.m in Sources */,
 				0CBB6BB817D544390049FFAE /* MainViewController.m in Sources */,
 				0C29CB3317D52E060027487F /* PlayGameViewController.m in Sources */,
 				0C29CB2E17D52DF70027487F /* MDPieceOne.m in Sources */,
@@ -375,6 +418,7 @@
 				0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */,
 				0C29CAFF17D52BD70027487F /* EPCCategories.m in Sources */,
 				0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */,
+				0C7930B117DFD8FE00849E7B /* PlayChoiceViewController.m in Sources */,
 				0C29CA7F17D524680027487F /* AppDelegate.m in Sources */,
 				0C29CA7B17D524680027487F /* main.m in Sources */,
 			);

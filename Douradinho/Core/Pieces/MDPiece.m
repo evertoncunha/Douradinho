@@ -13,6 +13,11 @@
 @implementation MDPiece
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	
+	if ([self.delegate respondsToSelector:@selector(pieceStartedMoving:)]) {
+		[self.delegate pieceStartedMoving:self];
+	}
+	
 	CGRect fra = self.frame;
 	fra.origin.y -= kSizeDif/2.f;
 	fra.origin.x -= kSizeDif/2.f;

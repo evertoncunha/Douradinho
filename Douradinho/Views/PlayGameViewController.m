@@ -7,10 +7,9 @@
 //
 
 #import "PlayGameViewController.h"
-#import "MDPiece.h"
 #import "KGNoise.h"
 
-@interface PlayGameViewController () <MDPieceDelegate>
+@interface PlayGameViewController ()
 
 @end
 

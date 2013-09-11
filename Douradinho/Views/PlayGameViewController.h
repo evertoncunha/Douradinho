@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MDPiece.h"
 
-@interface PlayGameViewController : UIViewController {
+@interface PlayGameViewController : UIViewController <MDPieceDelegate> {
 	IBOutlet UIView *_countAreaView;
 	IBOutlet UILabel *_countLabel;
 }
+
+- (BOOL)pieceIsInsideArea:(MDPiece*)piece;
 
 @end

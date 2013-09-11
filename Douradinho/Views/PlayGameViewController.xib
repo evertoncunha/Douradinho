@@ -1,2513 +1,498 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1296</int>
-		<string key="IBDocument.SystemVersion">13A569</string>
-		<string key="IBDocument.InterfaceBuilderVersion">4504</string>
-		<string key="IBDocument.AppKitVersion">1251</string>
-		<string key="IBDocument.HIToolboxVersion">694.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">3734.1</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIButton</string>
-			<string>IBUIImageView</string>
-			<string>IBUILabel</string>
-			<string>IBUIView</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="645388893">
-			<object class="IBProxyObject" id="900758351">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBProxyObject" id="928517150">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBUIView" id="1019639173">
-				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">1316</int>
-				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIView" id="291083112">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<array class="NSMutableArray" key="NSSubviews">
-							<object class="IBUIView" id="266598466">
-								<reference key="NSNextResponder" ref="291083112"/>
-								<int key="NSvFlags">1298</int>
-								<array class="NSMutableArray" key="NSSubviews">
-									<object class="IBUILabel" id="800854701">
-										<reference key="NSNextResponder" ref="266598466"/>
-										<int key="NSvFlags">1313</int>
-										<string key="NSFrame">{{790, 8}, {184, 21}}</string>
-										<reference key="NSSuperview" ref="266598466"/>
-										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="663763644"/>
-										<string key="NSReuseIdentifierKey">_NS:9</string>
-										<string key="NSHuggingPriority">{251, 251}</string>
-										<bool key="IBUIOpaque">NO</bool>
-										<bool key="IBUIClipsSubviews">YES</bool>
-										<int key="IBUIContentMode">7</int>
-										<bool key="IBUIUserInteractionEnabled">NO</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<string key="IBUIText">Label</string>
-										<object class="NSColor" key="IBUITextColor">
-											<int key="NSColorSpace">1</int>
-											<bytes key="NSRGB">MCAwIDAAA</bytes>
-											<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
-										</object>
-										<nil key="IBUIHighlightedColor"/>
-										<int key="IBUIBaselineAdjustment">0</int>
-										<int key="IBUITextAlignment">2</int>
-										<object class="IBUIFontDescription" key="IBUIFontDescription">
-											<int key="type">2</int>
-											<double key="pointSize">17</double>
-										</object>
-										<object class="NSFont" key="IBUIFont">
-											<string key="NSName">HelveticaNeue-Bold</string>
-											<double key="NSSize">17</double>
-											<int key="NSfFlags">16</int>
-										</object>
-										<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-									</object>
-								</array>
-								<object class="NSPSMatrix" key="NSFrameMatrix"/>
-								<string key="NSFrame">{{2, 2}, {982, 430}}</string>
-								<reference key="NSSuperview" ref="291083112"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="800854701"/>
-								<object class="NSColor" key="IBUIBackgroundColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC44NTAwMzM5Njc0IDAuODUwMDMzOTY3NCAwLjg1MDAzMzk2NzQAA</bytes>
-								</object>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-						</array>
-						<object class="NSPSMatrix" key="NSFrameMatrix"/>
-						<string key="NSFrame">{{18, 26}, {986, 434}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="266598466"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC42MDgzNzg1MDc3IDAuNTU1Mzg1MzQwMSAwLjMyMTY1Njk0MDcAA</bytes>
-						</object>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-					</object>
-					<object class="IBUIImageView" id="663763644">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 473}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="763327174"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="298812238">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 500}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="589922733"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="387637271">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 527}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="746701475"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="188267156">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 554}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="824000819"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="323526088">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 581}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="799082341"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="309221960">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 608}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="312092946"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="479347270">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 635}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="73098156"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="590123555">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 662}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="296056939"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="376776902">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 689}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="192682512"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="206458148">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 716}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="263557073"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="763327174">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 473}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1063017271"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="589922733">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 500}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1054131222"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="746701475">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 527}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="741576308"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="824000819">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 554}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="824682009"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="799082341">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 581}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="889012842"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="312092946">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 608}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1073681857"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="73098156">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 635}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="626143359"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="296056939">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 662}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="234221370"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="192682512">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 689}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="556217531"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="263557073">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{50, 716}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="297586436"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="974390201">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 479}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="298812238"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="915016446">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 519}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="188267156"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="987813830">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 562}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="323526088"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="379993648">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 600}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="479347270"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="431396178">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 637}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="590123555"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="290846909">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 675}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="966698635"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="961059238">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{186, 712}, {216, 23}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="432989575"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceten</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="183803720">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{478, 492}, {23, 216}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="492778536"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">piecetenv</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="492778536">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{521, 492}, {23, 216}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="279706906"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">piecetenv</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="432989575">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{429, 492}, {23, 216}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="183803720"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">piecetenv</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="279706906">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{578, 495}, {206, 209}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">piecehundred</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="966698635">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{797, 495}, {207, 210}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="206458148"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">piecehundred</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="1063017271">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 473}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="716955631"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="1054131222">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 500}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="429010718"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="741576308">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 527}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="264756504"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="824682009">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 554}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="790052787"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="889012842">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 581}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="725066657"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="1073681857">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 608}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="457436018"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="626143359">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 635}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1053608860"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="234221370">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 662}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="714342104"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="556217531">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 689}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="437825415"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="297586436">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{80, 716}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="721441345"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="716955631">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 473}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="465280290"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="429010718">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 500}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="253094434"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="264756504">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 527}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="721381378"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="790052787">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 554}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="17681824"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="725066657">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 581}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="487314805"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="457436018">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 608}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="203855086"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="1053608860">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 635}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="315267260"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="714342104">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 662}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="786124045"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="437825415">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 689}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="591491357"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="721441345">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{110, 716}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="678592870"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="465280290">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 473}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="974390201"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="253094434">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 500}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="387637271"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="721381378">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 527}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="915016446"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="17681824">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 554}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="987813830"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="487314805">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 581}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="309221960"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="203855086">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 608}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="379993648"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="315267260">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 635}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="431396178"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="786124045">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 662}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="376776902"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="591491357">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 689}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="290846909"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="678592870">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{140, 716}, {25, 25}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="961059238"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
-						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">pieceone</string>
-						</object>
-					</object>
-					<object class="IBUIButton" id="67555942">
-						<reference key="NSNextResponder" ref="1019639173"/>
-						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{5, 18}, {91, 61}}</string>
-						<reference key="NSSuperview" ref="1019639173"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="291083112"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSColor" key="IBUINormalTitleShadowColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
-						</object>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">sair</string>
-						</object>
-						<nil key="IBUIFontDescription"/>
-						<nil key="IBUIFont"/>
-					</object>
-				</array>
-				<object class="NSPSMatrix" key="NSFrameMatrix"/>
-				<string key="NSFrame">{{0, 20}, {1024, 748}}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="67555942"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MQA</bytes>
-					<object class="NSColorSpace" key="NSCustomColorSpace">
-						<int key="NSID">2</int>
-					</object>
-				</object>
-				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="IBUIInterfaceOrientation">3</int>
-					<int key="interfaceOrientation">3</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<bool key="usesAutoincrementingIDs">NO</bool>
-			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">view</string>
-						<reference key="source" ref="900758351"/>
-						<reference key="destination" ref="1019639173"/>
-					</object>
-					<string key="id">3</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">_countLabel</string>
-						<reference key="source" ref="900758351"/>
-						<reference key="destination" ref="800854701"/>
-					</object>
-					<string key="id">JPM-Qv-5if</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">_countAreaView</string>
-						<reference key="source" ref="900758351"/>
-						<reference key="destination" ref="291083112"/>
-					</object>
-					<string key="id">Roh-g5-a4Z</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="263557073"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">nhg-KZ-rDx</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1063017271"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">mGM-Nh-zLG</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="73098156"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">cOU-4b-d0L</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="312092946"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">J0s-AI-EfI</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="465280290"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">CLM-Cx-G22</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="323526088"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">25W-GX-UgC</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="206458148"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">7de-2u-ahH</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="714342104"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">m3O-dt-yq3</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="309221960"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">IFg-KJ-MFi</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="966698635"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">VzL-ix-pAM</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="290846909"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">9iT-tq-wKw</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="298812238"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">pMg-gg-kze</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="721441345"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">43z-XY-U8f</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="203855086"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">W2A-Yg-dPB</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="437825415"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">xKc-xv-KPD</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="974390201"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">RkU-6Y-T9Z</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="188267156"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Hqi-JR-hCI</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="626143359"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Pbx-GC-F1k</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="741576308"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">cGv-sw-Jji</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1054131222"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">yLS-H8-w1q</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1073681857"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">0hZ-8T-vAy</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="457436018"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">ybc-0u-yEF</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="725066657"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">28C-vr-e31</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="716955631"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">ZJw-EU-c6w</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="790052787"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">4ti-yQ-aA1</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="297586436"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Sti-YF-rRo</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="253094434"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">8io-tJ-f6I</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="746701475"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">SwJ-s0-z3m</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="315267260"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">JhT-TY-Fso</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="192682512"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">bzn-tQ-0ky</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="786124045"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">8VY-Ft-Tkd</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="279706906"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">IOL-2g-I2o</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="1053608860"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">oma-vQ-GUH</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="492778536"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Xjh-Lu-tIc</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="479347270"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">YaK-vJ-ZDf</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="987813830"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">h9n-Vq-jtd</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="678592870"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">aVd-nd-xi0</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">popViewControllerAnimated</string>
-						<reference key="source" ref="67555942"/>
-						<reference key="destination" ref="900758351"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">tJe-II-Abv</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="663763644"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">xzQ-XF-JOv</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="264756504"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">2xG-6x-ZqK</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="379993648"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">g8m-lg-6x0</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="721381378"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Q1N-xt-tWF</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="17681824"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">T6a-Tr-drA</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="387637271"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Lx5-hx-NhO</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="431396178"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Z4p-Hd-202</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="763327174"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Cmm-Kg-TVj</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="296056939"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Y6v-ke-SuY</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="824682009"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">AhX-73-5LA</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="487314805"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">6WB-U3-6gn</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="799082341"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Lyb-W5-UBz</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="183803720"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Wwp-zR-Dn8</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="429010718"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">RH2-pX-oeB</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="915016446"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">bY5-7v-HOK</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="824000819"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">l51-LK-4cP</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="432989575"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Jng-nc-4Sa</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="589922733"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">15D-cJ-zxo</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="376776902"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">WbW-5E-BgM</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="591491357"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">xHL-V8-KT6</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="961059238"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">Pxq-AH-fQw</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="889012842"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">vwp-P4-5ql</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="556217531"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">g4J-CA-bvE</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="234221370"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">XMy-Oh-gDi</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="590123555"/>
-						<reference key="destination" ref="900758351"/>
-					</object>
-					<string key="id">eLs-nC-bGf</string>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<string key="id">0</string>
-						<array key="object" id="0"/>
-						<reference key="children" ref="645388893"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-1</string>
-						<reference key="object" ref="900758351"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-2</string>
-						<reference key="object" ref="928517150"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">2</string>
-						<reference key="object" ref="1019639173"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="291083112"/>
-							<reference ref="663763644"/>
-							<reference ref="298812238"/>
-							<reference ref="387637271"/>
-							<reference ref="188267156"/>
-							<reference ref="323526088"/>
-							<reference ref="309221960"/>
-							<reference ref="479347270"/>
-							<reference ref="590123555"/>
-							<reference ref="376776902"/>
-							<reference ref="206458148"/>
-							<reference ref="763327174"/>
-							<reference ref="589922733"/>
-							<reference ref="746701475"/>
-							<reference ref="824000819"/>
-							<reference ref="799082341"/>
-							<reference ref="312092946"/>
-							<reference ref="73098156"/>
-							<reference ref="296056939"/>
-							<reference ref="192682512"/>
-							<reference ref="263557073"/>
-							<reference ref="1063017271"/>
-							<reference ref="1054131222"/>
-							<reference ref="741576308"/>
-							<reference ref="824682009"/>
-							<reference ref="889012842"/>
-							<reference ref="1073681857"/>
-							<reference ref="626143359"/>
-							<reference ref="234221370"/>
-							<reference ref="556217531"/>
-							<reference ref="297586436"/>
-							<reference ref="716955631"/>
-							<reference ref="429010718"/>
-							<reference ref="264756504"/>
-							<reference ref="790052787"/>
-							<reference ref="725066657"/>
-							<reference ref="457436018"/>
-							<reference ref="1053608860"/>
-							<reference ref="714342104"/>
-							<reference ref="437825415"/>
-							<reference ref="721441345"/>
-							<reference ref="465280290"/>
-							<reference ref="253094434"/>
-							<reference ref="721381378"/>
-							<reference ref="17681824"/>
-							<reference ref="487314805"/>
-							<reference ref="203855086"/>
-							<reference ref="315267260"/>
-							<reference ref="786124045"/>
-							<reference ref="591491357"/>
-							<reference ref="678592870"/>
-							<reference ref="67555942"/>
-							<reference ref="279706906"/>
-							<reference ref="966698635"/>
-							<reference ref="974390201"/>
-							<reference ref="915016446"/>
-							<reference ref="987813830"/>
-							<reference ref="379993648"/>
-							<reference ref="431396178"/>
-							<reference ref="290846909"/>
-							<reference ref="183803720"/>
-							<reference ref="492778536"/>
-							<reference ref="432989575"/>
-							<reference ref="961059238"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">5Jx-gQ-zOJ</string>
-						<reference key="object" ref="291083112"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="266598466"/>
-						</array>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">cGy-Vq-HaQ</string>
-						<reference key="object" ref="663763644"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Fne-0x-H6k</string>
-						<reference key="object" ref="298812238"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">gwl-5Z-hkc</string>
-						<reference key="object" ref="387637271"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">JGS-yP-yGJ</string>
-						<reference key="object" ref="188267156"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">9c0-vU-Svm</string>
-						<reference key="object" ref="323526088"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Aru-b2-8av</string>
-						<reference key="object" ref="309221960"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">a3R-Gs-Gqr</string>
-						<reference key="object" ref="479347270"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">zxM-lT-SLc</string>
-						<reference key="object" ref="590123555"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">qhz-3N-UX4</string>
-						<reference key="object" ref="376776902"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">ARv-eB-cbI</string>
-						<reference key="object" ref="206458148"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">im5-If-ZJY</string>
-						<reference key="object" ref="763327174"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">qXz-Aq-NE6</string>
-						<reference key="object" ref="589922733"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">V04-YB-8EL</string>
-						<reference key="object" ref="746701475"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">nyO-HI-AgV</string>
-						<reference key="object" ref="824000819"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">kVF-tR-YzV</string>
-						<reference key="object" ref="799082341"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">85O-77-cVS</string>
-						<reference key="object" ref="312092946"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">7i0-19-N1D</string>
-						<reference key="object" ref="73098156"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">ip4-7R-zUw</string>
-						<reference key="object" ref="296056939"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Vbs-Fv-RHR</string>
-						<reference key="object" ref="192682512"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">0GZ-YF-DQb</string>
-						<reference key="object" ref="263557073"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">HhU-HP-m3J</string>
-						<reference key="object" ref="974390201"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">mnq-pJ-v50</string>
-						<reference key="object" ref="915016446"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">a5X-LV-upI</string>
-						<reference key="object" ref="987813830"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">eYP-uo-ILI</string>
-						<reference key="object" ref="379993648"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">iJA-nF-meI</string>
-						<reference key="object" ref="431396178"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Dn6-xG-okP</string>
-						<reference key="object" ref="290846909"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">lUO-rC-4YF</string>
-						<reference key="object" ref="183803720"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">XSP-uB-vgA</string>
-						<reference key="object" ref="279706906"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">BBY-u8-cUy</string>
-						<reference key="object" ref="966698635"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">5qP-Uo-ydM</string>
-						<reference key="object" ref="1063017271"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Nnh-9A-pDd</string>
-						<reference key="object" ref="1054131222"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">NQe-bf-W1x</string>
-						<reference key="object" ref="741576308"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">jDH-ke-qNi</string>
-						<reference key="object" ref="824682009"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">sNX-am-OOq</string>
-						<reference key="object" ref="889012842"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">ODu-Ed-TVH</string>
-						<reference key="object" ref="1073681857"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">MAB-8t-iij</string>
-						<reference key="object" ref="626143359"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">vxL-wJ-bWP</string>
-						<reference key="object" ref="234221370"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">ti8-jh-Z6f</string>
-						<reference key="object" ref="556217531"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Smk-mr-iey</string>
-						<reference key="object" ref="297586436"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">RjF-Uo-eVQ</string>
-						<reference key="object" ref="716955631"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">llz-dC-Zyv</string>
-						<reference key="object" ref="429010718"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">dA7-VF-xoz</string>
-						<reference key="object" ref="264756504"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Sj8-FI-w1R</string>
-						<reference key="object" ref="790052787"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Qzl-Rp-6sb</string>
-						<reference key="object" ref="725066657"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Qx9-0w-IQ4</string>
-						<reference key="object" ref="457436018"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Y9x-h0-jcm</string>
-						<reference key="object" ref="1053608860"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">AdU-tX-n1E</string>
-						<reference key="object" ref="714342104"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">HON-X0-Gpw</string>
-						<reference key="object" ref="437825415"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Gp4-Ka-ATn</string>
-						<reference key="object" ref="721441345"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">9FK-kT-uh5</string>
-						<reference key="object" ref="465280290"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">TFz-Fe-9fN</string>
-						<reference key="object" ref="253094434"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">gCf-gu-mlA</string>
-						<reference key="object" ref="721381378"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">gR4-fr-14i</string>
-						<reference key="object" ref="17681824"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">kGZ-6a-qnQ</string>
-						<reference key="object" ref="487314805"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">GuI-wR-PxB</string>
-						<reference key="object" ref="203855086"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">VPx-Ol-tz4</string>
-						<reference key="object" ref="315267260"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">WlV-Bf-xfg</string>
-						<reference key="object" ref="786124045"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">qoa-OD-9FD</string>
-						<reference key="object" ref="591491357"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">bx8-zZ-ZAW</string>
-						<reference key="object" ref="678592870"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">cGH-T5-omC</string>
-						<reference key="object" ref="67555942"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">VvJ-8d-Mt4</string>
-						<reference key="object" ref="266598466"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="800854701"/>
-						</array>
-						<reference key="parent" ref="291083112"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">yDx-tx-hUl</string>
-						<reference key="object" ref="800854701"/>
-						<reference key="parent" ref="266598466"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">Yzi-il-oYg</string>
-						<reference key="object" ref="492778536"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">pBk-AI-diH</string>
-						<reference key="object" ref="432989575"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">rbm-so-I4O</string>
-						<reference key="object" ref="961059238"/>
-						<reference key="parent" ref="1019639173"/>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">PlayGameViewController</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="-1.showNotes"/>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="-2.showNotes"/>
-				<string key="0GZ-YF-DQb.CustomClassName">MDPieceOne</string>
-				<string key="0GZ-YF-DQb.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="2.CustomClassName">KGNoiseLinearGradientView</string>
-				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="2.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="2.showNotes"/>
-				<string key="5Jx-gQ-zOJ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="5Jx-gQ-zOJ.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="5Jx-gQ-zOJ.showNotes"/>
-				<string key="5qP-Uo-ydM.CustomClassName">MDPieceOne</string>
-				<string key="5qP-Uo-ydM.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="7i0-19-N1D.CustomClassName">MDPieceOne</string>
-				<string key="7i0-19-N1D.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="85O-77-cVS.CustomClassName">MDPieceOne</string>
-				<string key="85O-77-cVS.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="9FK-kT-uh5.CustomClassName">MDPieceOne</string>
-				<string key="9FK-kT-uh5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="9c0-vU-Svm.CustomClassName">MDPieceOne</string>
-				<string key="9c0-vU-Svm.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="ARv-eB-cbI.CustomClassName">MDPieceOne</string>
-				<string key="ARv-eB-cbI.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="AdU-tX-n1E.CustomClassName">MDPieceOne</string>
-				<string key="AdU-tX-n1E.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Aru-b2-8av.CustomClassName">MDPieceOne</string>
-				<string key="Aru-b2-8av.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="BBY-u8-cUy.CustomClassName">MDPieceHundred</string>
-				<string key="BBY-u8-cUy.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Dn6-xG-okP.CustomClassName">MDPieceTen</string>
-				<string key="Dn6-xG-okP.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Fne-0x-H6k.CustomClassName">MDPieceOne</string>
-				<string key="Fne-0x-H6k.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Gp4-Ka-ATn.CustomClassName">MDPieceOne</string>
-				<string key="Gp4-Ka-ATn.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="GuI-wR-PxB.CustomClassName">MDPieceOne</string>
-				<string key="GuI-wR-PxB.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="HON-X0-Gpw.CustomClassName">MDPieceOne</string>
-				<string key="HON-X0-Gpw.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="HhU-HP-m3J.CustomClassName">MDPieceTen</string>
-				<string key="HhU-HP-m3J.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="JGS-yP-yGJ.CustomClassName">MDPieceOne</string>
-				<string key="JGS-yP-yGJ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="MAB-8t-iij.CustomClassName">MDPieceOne</string>
-				<string key="MAB-8t-iij.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="NQe-bf-W1x.CustomClassName">MDPieceOne</string>
-				<string key="NQe-bf-W1x.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Nnh-9A-pDd.CustomClassName">MDPieceOne</string>
-				<string key="Nnh-9A-pDd.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="ODu-Ed-TVH.CustomClassName">MDPieceOne</string>
-				<string key="ODu-Ed-TVH.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Qx9-0w-IQ4.CustomClassName">MDPieceOne</string>
-				<string key="Qx9-0w-IQ4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Qzl-Rp-6sb.CustomClassName">MDPieceOne</string>
-				<string key="Qzl-Rp-6sb.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="RjF-Uo-eVQ.CustomClassName">MDPieceOne</string>
-				<string key="RjF-Uo-eVQ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Sj8-FI-w1R.CustomClassName">MDPieceOne</string>
-				<string key="Sj8-FI-w1R.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Smk-mr-iey.CustomClassName">MDPieceOne</string>
-				<string key="Smk-mr-iey.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="TFz-Fe-9fN.CustomClassName">MDPieceOne</string>
-				<string key="TFz-Fe-9fN.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="V04-YB-8EL.CustomClassName">MDPieceOne</string>
-				<string key="V04-YB-8EL.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="VPx-Ol-tz4.CustomClassName">MDPieceOne</string>
-				<string key="VPx-Ol-tz4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Vbs-Fv-RHR.CustomClassName">MDPieceOne</string>
-				<string key="Vbs-Fv-RHR.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="VvJ-8d-Mt4.CustomClassName">KGNoiseRadialGradientView</string>
-				<string key="VvJ-8d-Mt4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="VvJ-8d-Mt4.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="VvJ-8d-Mt4.showNotes"/>
-				<string key="WlV-Bf-xfg.CustomClassName">MDPieceOne</string>
-				<string key="WlV-Bf-xfg.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="XSP-uB-vgA.CustomClassName">MDPieceHundred</string>
-				<string key="XSP-uB-vgA.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Y9x-h0-jcm.CustomClassName">MDPieceOne</string>
-				<string key="Y9x-h0-jcm.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="Yzi-il-oYg.CustomClassName">MDPieceTen</string>
-				<string key="Yzi-il-oYg.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="a3R-Gs-Gqr.CustomClassName">MDPieceOne</string>
-				<string key="a3R-Gs-Gqr.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="a5X-LV-upI.CustomClassName">MDPieceTen</string>
-				<string key="a5X-LV-upI.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="bx8-zZ-ZAW.CustomClassName">MDPieceOne</string>
-				<string key="bx8-zZ-ZAW.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="cGH-T5-omC.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="cGy-Vq-HaQ.CustomClassName">MDPieceOne</string>
-				<string key="cGy-Vq-HaQ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="dA7-VF-xoz.CustomClassName">MDPieceOne</string>
-				<string key="dA7-VF-xoz.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="eYP-uo-ILI.CustomClassName">MDPieceTen</string>
-				<string key="eYP-uo-ILI.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="gCf-gu-mlA.CustomClassName">MDPieceOne</string>
-				<string key="gCf-gu-mlA.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="gR4-fr-14i.CustomClassName">MDPieceOne</string>
-				<string key="gR4-fr-14i.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="gwl-5Z-hkc.CustomClassName">MDPieceOne</string>
-				<string key="gwl-5Z-hkc.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="iJA-nF-meI.CustomClassName">MDPieceTen</string>
-				<string key="iJA-nF-meI.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="im5-If-ZJY.CustomClassName">MDPieceOne</string>
-				<string key="im5-If-ZJY.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="ip4-7R-zUw.CustomClassName">MDPieceOne</string>
-				<string key="ip4-7R-zUw.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="jDH-ke-qNi.CustomClassName">MDPieceOne</string>
-				<string key="jDH-ke-qNi.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="kGZ-6a-qnQ.CustomClassName">MDPieceOne</string>
-				<string key="kGZ-6a-qnQ.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="kVF-tR-YzV.CustomClassName">MDPieceOne</string>
-				<string key="kVF-tR-YzV.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="lUO-rC-4YF.CustomClassName">MDPieceTen</string>
-				<string key="lUO-rC-4YF.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="llz-dC-Zyv.CustomClassName">MDPieceOne</string>
-				<string key="llz-dC-Zyv.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="mnq-pJ-v50.CustomClassName">MDPieceTen</string>
-				<string key="mnq-pJ-v50.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="nyO-HI-AgV.CustomClassName">MDPieceOne</string>
-				<string key="nyO-HI-AgV.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="pBk-AI-diH.CustomClassName">MDPieceTen</string>
-				<string key="pBk-AI-diH.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="qXz-Aq-NE6.CustomClassName">MDPieceOne</string>
-				<string key="qXz-Aq-NE6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="qhz-3N-UX4.CustomClassName">MDPieceOne</string>
-				<string key="qhz-3N-UX4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="qoa-OD-9FD.CustomClassName">MDPieceOne</string>
-				<string key="qoa-OD-9FD.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="rbm-so-I4O.CustomClassName">MDPieceTen</string>
-				<string key="rbm-so-I4O.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="sNX-am-OOq.CustomClassName">MDPieceOne</string>
-				<string key="sNX-am-OOq.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="ti8-jh-Z6f.CustomClassName">MDPieceOne</string>
-				<string key="ti8-jh-Z6f.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="vxL-wJ-bWP.CustomClassName">MDPieceOne</string>
-				<string key="vxL-wJ-bWP.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="yDx-tx-hUl.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="zxM-lT-SLc.CustomClassName">MDPieceOne</string>
-				<string key="zxM-lT-SLc.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">KGNoiseLinearGradientView</string>
-					<string key="superclassName">KGNoiseView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/KGNoiseLinearGradientView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">KGNoiseRadialGradientView</string>
-					<string key="superclassName">KGNoiseView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/KGNoiseRadialGradientView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">KGNoiseView</string>
-					<string key="superclassName">UIView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/KGNoiseView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MDPiece</string>
-					<string key="superclassName">UIImageView</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">delegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MDPiece.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MDPieceHundred</string>
-					<string key="superclassName">MDPiece</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MDPieceHundred.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MDPieceOne</string>
-					<string key="superclassName">MDPiece</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MDPieceOne.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MDPieceTen</string>
-					<string key="superclassName">MDPiece</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MDPieceTen.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">PlayGameViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="_countAreaView">UIView</string>
-						<string key="_countLabel">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="_countAreaView">
-							<string key="name">_countAreaView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_countLabel">
-							<string key="name">_countLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/PlayGameViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">UIViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">popViewControllerAnimated</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">popViewControllerAnimated</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">popViewControllerAnimated</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/UIViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
-		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">YES</bool>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1296" key="NS.object.0"/>
-		</object>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="4600" key="NS.object.0"/>
-		</object>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="piecehundred">{353, 362}</string>
-			<string key="pieceone">{37, 39}</string>
-			<string key="pieceten">{352, 39}</string>
-			<string key="piecetenv">{39, 352}</string>
-			<string key="sair">{121, 85}</string>
-		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">3734.1</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4504" systemVersion="13A569" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3734.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayGameViewController">
+            <connections>
+                <outlet property="_countAreaView" destination="5Jx-gQ-zOJ" id="Roh-g5-a4Z"/>
+                <outlet property="_countLabel" destination="yDx-tx-hUl" id="JPM-Qv-5if"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2" customClass="KGNoiseLinearGradientView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="5Jx-gQ-zOJ">
+                    <rect key="frame" x="18" y="73" width="986" height="387"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="VvJ-8d-Mt4" customClass="KGNoiseRadialGradientView">
+                            <rect key="frame" x="2" y="2" width="982" height="383"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yDx-tx-hUl">
+                                    <rect key="frame" x="790" y="8" width="184" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.85003396740000003" green="0.85003396740000003" blue="0.85003396740000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.60837850770000002" green="0.55538534009999996" blue="0.3216569407" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="cGy-Vq-HaQ" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="473" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="xzQ-XF-JOv"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Fne-0x-H6k" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="500" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="pMg-gg-kze"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="gwl-5Z-hkc" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="527" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Lx5-hx-NhO"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="JGS-yP-yGJ" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="554" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Hqi-JR-hCI"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="9c0-vU-Svm" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="581" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="25W-GX-UgC"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Aru-b2-8av" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="608" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="IFg-KJ-MFi"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="a3R-Gs-Gqr" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="635" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="YaK-vJ-ZDf"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="zxM-lT-SLc" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="662" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="eLs-nC-bGf"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="qhz-3N-UX4" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="689" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="WbW-5E-BgM"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="ARv-eB-cbI" customClass="MDPieceOne">
+                    <rect key="frame" x="20" y="716" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="7de-2u-ahH"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="im5-If-ZJY" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="473" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Cmm-Kg-TVj"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="qXz-Aq-NE6" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="500" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="15D-cJ-zxo"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="V04-YB-8EL" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="527" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="SwJ-s0-z3m"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="nyO-HI-AgV" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="554" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="l51-LK-4cP"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="kVF-tR-YzV" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="581" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Lyb-W5-UBz"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="85O-77-cVS" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="608" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="J0s-AI-EfI"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="7i0-19-N1D" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="635" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="cOU-4b-d0L"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="ip4-7R-zUw" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="662" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Y6v-ke-SuY"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Vbs-Fv-RHR" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="689" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="bzn-tQ-0ky"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="0GZ-YF-DQb" customClass="MDPieceOne">
+                    <rect key="frame" x="50" y="716" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="nhg-KZ-rDx"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="HhU-HP-m3J" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="479" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="RkU-6Y-T9Z"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="mnq-pJ-v50" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="519" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="bY5-7v-HOK"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="a5X-LV-upI" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="562" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="h9n-Vq-jtd"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="eYP-uo-ILI" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="600" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="g8m-lg-6x0"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="iJA-nF-meI" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="637" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Z4p-Hd-202"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="Dn6-xG-okP" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="675" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9iT-tq-wKw"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceten" id="rbm-so-I4O" customClass="MDPieceTen">
+                    <rect key="frame" x="186" y="712" width="216" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Pxq-AH-fQw"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecetenv" id="lUO-rC-4YF" customClass="MDPieceTen">
+                    <rect key="frame" x="478" y="492" width="23" height="216"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Wwp-zR-Dn8"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecetenv" id="Yzi-il-oYg" customClass="MDPieceTen">
+                    <rect key="frame" x="521" y="492" width="23" height="216"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Xjh-Lu-tIc"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecetenv" id="pBk-AI-diH" customClass="MDPieceTen">
+                    <rect key="frame" x="429" y="492" width="23" height="216"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Jng-nc-4Sa"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="XSP-uB-vgA" customClass="MDPieceHundred">
+                    <rect key="frame" x="578" y="495" width="206" height="209"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="IOL-2g-I2o"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="BBY-u8-cUy" customClass="MDPieceHundred">
+                    <rect key="frame" x="797" y="495" width="207" height="210"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="VzL-ix-pAM"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="5qP-Uo-ydM" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="473" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="mGM-Nh-zLG"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Nnh-9A-pDd" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="500" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="yLS-H8-w1q"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="NQe-bf-W1x" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="527" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="cGv-sw-Jji"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="jDH-ke-qNi" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="554" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="AhX-73-5LA"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="sNX-am-OOq" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="581" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="vwp-P4-5ql"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="ODu-Ed-TVH" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="608" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="0hZ-8T-vAy"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="MAB-8t-iij" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="635" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Pbx-GC-F1k"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="vxL-wJ-bWP" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="662" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="XMy-Oh-gDi"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="ti8-jh-Z6f" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="689" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="g4J-CA-bvE"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Smk-mr-iey" customClass="MDPieceOne">
+                    <rect key="frame" x="80" y="716" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Sti-YF-rRo"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="RjF-Uo-eVQ" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="473" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ZJw-EU-c6w"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="llz-dC-Zyv" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="500" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="RH2-pX-oeB"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="dA7-VF-xoz" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="527" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="2xG-6x-ZqK"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Sj8-FI-w1R" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="554" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="4ti-yQ-aA1"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Qzl-Rp-6sb" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="581" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="28C-vr-e31"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Qx9-0w-IQ4" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="608" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ybc-0u-yEF"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Y9x-h0-jcm" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="635" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="oma-vQ-GUH"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="AdU-tX-n1E" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="662" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="m3O-dt-yq3"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="HON-X0-Gpw" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="689" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="xKc-xv-KPD"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="Gp4-Ka-ATn" customClass="MDPieceOne">
+                    <rect key="frame" x="110" y="716" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="43z-XY-U8f"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="9FK-kT-uh5" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="473" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="CLM-Cx-G22"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="TFz-Fe-9fN" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="500" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="8io-tJ-f6I"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="gCf-gu-mlA" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="527" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Q1N-xt-tWF"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="gR4-fr-14i" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="554" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="T6a-Tr-drA"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="kGZ-6a-qnQ" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="581" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="6WB-U3-6gn"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="GuI-wR-PxB" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="608" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="W2A-Yg-dPB"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="VPx-Ol-tz4" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="635" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="JhT-TY-Fso"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="WlV-Bf-xfg" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="662" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="8VY-Ft-Tkd"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="qoa-OD-9FD" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="689" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="xHL-V8-KT6"/>
+                    </connections>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="pieceone" id="bx8-zZ-ZAW" customClass="MDPieceOne">
+                    <rect key="frame" x="140" y="716" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="aVd-nd-xi0"/>
+                    </connections>
+                </imageView>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cGH-T5-omC">
+                    <rect key="frame" x="6" y="6" width="61" height="61"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="popViewControllerAnimated" destination="-1" eventType="touchUpInside" id="tJe-II-Abv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="256" height="256"/>
+        <image name="piecehundred" width="353" height="362"/>
+        <image name="pieceone" width="37" height="39"/>
+        <image name="pieceten" width="352" height="39"/>
+        <image name="piecetenv" width="39" height="352"/>
+    </resources>
+</document>

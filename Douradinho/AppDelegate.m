@@ -7,22 +7,27 @@
 //
 
 #import "AppDelegate.h"
-#import "PlayGameViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	
+	
+	
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
 	
-	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[PlayGameViewController alloc] initWithNibName:nil bundle:nil]];
+	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[MainViewController alloc] initWithNibName:nil bundle:nil]];
 	[nav setNavigationBarHidden:YES animated:NO];
 	
 	self.window.rootViewController = nav;
 	
     [self.window makeKeyAndVisible];
+	
+	[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
 	
     return YES;
 }
