@@ -5,10 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayGameViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayPracticeViewController">
             <connections>
                 <outlet property="_countAreaView" destination="5Jx-gQ-zOJ" id="Roh-g5-a4Z"/>
                 <outlet property="_countLabel" destination="yDx-tx-hUl" id="JPM-Qv-5if"/>
+                <outlet property="_questionLabel" destination="p8v-DB-h5h" id="4Tn-jv-vIs"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -482,6 +483,12 @@
                         <action selector="popViewControllerAnimated" destination="-1" eventType="touchUpInside" id="tJe-II-Abv"/>
                     </connections>
                 </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p8v-DB-h5h">
+                    <rect key="frame" x="93" y="20" width="422" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>

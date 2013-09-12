@@ -7,7 +7,7 @@
 //
 
 #import "PlayGameViewController.h"
-#import "KGNoise.h"
+#import "CorrectAnswerViewController.h"
 
 @interface PlayGameViewController ()
 
@@ -20,19 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	
-	KGNoiseLinearGradientView *view = (id)self.view;
-	
-	view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
-	view.alternateBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
-	
-	
-	view = [_countAreaView.subviews firstObject];
-	view.backgroundColor = [UIColor whiteColor];
-	view.alternateBackgroundColor = UIColorFromRGB(0xf0efda);
-	
 	[self refreshCount];
-	
-//	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg-pattern"]];
 }
 
 - (void)piece:(MDPiece *)piece movedToLocation:(CGPoint)location {
@@ -65,5 +53,6 @@
 		}
 	}
 	_countLabel.text = fstr(@"%d", val);
+	
 }
 @end

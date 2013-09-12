@@ -16,4 +16,6 @@
 
 - (BOOL)pieceIsInsideArea:(MDPiece*)piece;
 
+- (void)refreshCount;
+
 @end

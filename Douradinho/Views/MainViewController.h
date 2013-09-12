@@ -13,4 +13,8 @@
 
 - (IBAction)tappedPlay:(id)sender;
 
+- (IBAction)tappedHelp:(id)sender;
+
+- (IBAction)tappedPractice:(id)sender;
+
 @end

@@ -14,35 +14,18 @@
 
 @implementation PlayUnlimitedViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)pieceStartedMoving:(MDPiece *)piece {
 	if (![self pieceIsInsideArea:piece]) {
+		DLog(@"created view");
 		MDPiece *new = [[[piece class] alloc] init];
 		new.startPoint = piece.startPoint;
 		new.frame = piece.frame;
 		new.delegate = self;
 		new.image = piece.image;
+		new.contentMode = piece.contentMode;
+		new.userInteractionEnabled = YES;
 		[self.view insertSubview:new belowSubview:piece];
+		DLog(@"%@", new);
 	}
 }
 
@@ -53,8 +36,12 @@
 	
 	NSMutableArray *classes = [NSMutableArray array];
 	
-	NSString *class = NSStringFromClass([piece class]);
-	[classes addObject:class];
+	NSString *class = nil;
+    if (![self pieceIsInsideArea:piece]) {
+        class = NSStringFromClass([piece class]);
+        [classes addObject:class];
+    }
+	
 	
 	if (![super pieceIsInsideArea:piece]) {
 		for (int i = 0; i < [self.view.subviews count]; i ++) {
@@ -77,7 +64,6 @@
 		}
 	}
 	
-	assert([self testForSameObjects]);
 }
 
 - (BOOL)testForSameObjects {

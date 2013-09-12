@@ -69,7 +69,7 @@ static inline CGFloat *gradientComponentsForColors(NSColor *color1, NSColor *col
         }
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
         CGContextRef bitmapContext =
-        CGBitmapContextCreate(bitmapData, width, height, 8, width, colorSpace, kCGImageAlphaNone);
+        CGBitmapContextCreate(bitmapData, width, height, 8, width, colorSpace, 0);
         CFRelease(colorSpace);
         noiseImageRef = CGBitmapContextCreateImage(bitmapContext);
         CFRelease(bitmapContext);
