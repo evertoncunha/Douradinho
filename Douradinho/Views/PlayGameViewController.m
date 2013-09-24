@@ -54,5 +54,9 @@
 	}
 	_countLabel.text = fstr(@"%d", val);
 	
+	_moveLabel.hidden = val > 0;
+	
+	[_countLabel.superview bringSubviewToFront:_countLabel];
+	
 }
 @end

@@ -12,6 +12,7 @@
 @interface PlayGameViewController : UIViewController <MDPieceDelegate> {
 	IBOutlet UIView *_countAreaView;
 	IBOutlet UILabel *_countLabel;
+	IBOutlet UILabel *_moveLabel;
 }
 
 - (BOOL)pieceIsInsideArea:(MDPiece*)piece;
