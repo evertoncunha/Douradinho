@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "1378790621_MB__back.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "pinkbtn2@2x.png"
     }
   ],
   "info" : {

@@ -190,8 +190,8 @@
 				0C29CA8017D524680027487F /* Images.xcassets */,
 				0C29CA7D17D524680027487F /* AppDelegate.h */,
 				0C29CA7E17D524680027487F /* AppDelegate.m */,
-				0C29CB2717D52DF70027487F /* Core */,
-				0C29CB2F17D52E060027487F /* Views */,
+				0C29CB2717D52DF70027487F /* Model */,
+				0C29CB2F17D52E060027487F /* Controller */,
 				0C29CA7517D524680027487F /* Supporting Files */,
 			);
 			path = Douradinho;
@@ -255,12 +255,13 @@
 			path = Addons;
 			sourceTree = "<group>";
 		};
-		0C29CB2717D52DF70027487F /* Core */ = {
+		0C29CB2717D52DF70027487F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				0C29CB2817D52DF70027487F /* Pieces */,
 				50CBD1B217E25B6D00BABC52 /* Question */,
 			);
+			name = Model;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -279,7 +280,7 @@
 			path = Pieces;
 			sourceTree = "<group>";
 		};
-		0C29CB2F17D52E060027487F /* Views */ = {
+		0C29CB2F17D52E060027487F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				0C29CB6817D542F60027487F /* Main */,
@@ -287,6 +288,7 @@
 				0C7930B317DFD90300849E7B /* Play */,
 				50CBD1A817E2587E00BABC52 /* Help */,
 			);
+			name = Controller;
 			path = Views;
 			sourceTree = "<group>";
 		};
