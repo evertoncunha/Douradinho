@@ -244,24 +244,7 @@
         <image name="header2" width="1024" height="122"/>
         <image name="piecehundred" width="250" height="250"/>
         <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
-        <image name="pieceone" width="25" height="25"/>
         <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="pieceten" width="268" height="25"/>
-        <image name="piecetenv" width="25" height="268"/>
-        <image name="piecetenv" width="25" height="268"/>
         <image name="piecetenv" width="25" height="268"/>
     </resources>
 </document>
