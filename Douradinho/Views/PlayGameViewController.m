@@ -45,7 +45,7 @@
 
 - (void)refreshCount {
 	int val = 0;
-	for (MDPiece *piece in self.view.subviews) {
+	for (MDPiece *piece in [[self.view.subviews firstObject] subviews]) {
 		if ([piece isKindOfClass:[MDPiece class]]) {
 			if ([self pieceIsInsideArea:piece]) {
 				val += piece.value;

@@ -15,6 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="wood" id="nwd-L8-Lge">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="J0h-RB-bIx">
                     <rect key="frame" x="349" y="271" width="368" height="141"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -22,7 +26,7 @@
                     <state key="normal" title="BRINCAR" backgroundImage="greenbtn">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <state key="highlighted" title="Brincar" backgroundImage="greenbtn2"/>
+                    <state key="highlighted" backgroundImage="greenbtn2"/>
                     <connections>
                         <action selector="tappedPlay:" destination="-1" eventType="touchUpInside" id="8Nj-LG-nww"/>
                     </connections>
@@ -52,8 +56,8 @@
                     </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="header" id="xe0-Fo-RbK">
-                    <rect key="frame" x="1" y="0.0" width="1024" height="227"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="227"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                 </imageView>
             </subviews>
@@ -70,5 +74,6 @@
         <image name="header" width="1024" height="227"/>
         <image name="pinkbtn" width="368" height="141"/>
         <image name="pinkbtn2" width="368" height="141"/>
+        <image name="wood" width="1024" height="768"/>
     </resources>
 </document>

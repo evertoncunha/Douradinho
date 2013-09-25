@@ -27,8 +27,6 @@
 	
     [self.window makeKeyAndVisible];
 	
-	[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
-	
     return YES;
 }
 

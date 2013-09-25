@@ -323,9 +323,7 @@
 		0C7930B317DFD90300849E7B /* Play */ = {
 			isa = PBXGroup;
 			children = (
-				0C7930AE17DFD8FE00849E7B /* PlayChoiceViewController.h */,
-				0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */,
-				0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */,
+				50FCCAB117F39240000750B1 /* PlayChoice */,
 				0C29CB6717D542ED0027487F /* Game */,
 			);
 			name = Play;
@@ -425,6 +423,16 @@
 				50CBD1CE17E2689E00BABC52 /* EndedChallengeViewController.xib */,
 			);
 			name = "Ended Challenge";
+			sourceTree = "<group>";
+		};
+		50FCCAB117F39240000750B1 /* PlayChoice */ = {
+			isa = PBXGroup;
+			children = (
+				0C7930AE17DFD8FE00849E7B /* PlayChoiceViewController.h */,
+				0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */,
+				0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */,
+			);
+			name = PlayChoice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
