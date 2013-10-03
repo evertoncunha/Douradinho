@@ -14,11 +14,6 @@
 		0C29CA7B17D524680027487F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CA7A17D524680027487F /* main.m */; };
 		0C29CA7F17D524680027487F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CA7E17D524680027487F /* AppDelegate.m */; };
 		0C29CA8117D524680027487F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CA8017D524680027487F /* Images.xcassets */; };
-		0C29CA8817D524680027487F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C29CA8717D524680027487F /* XCTest.framework */; };
-		0C29CA8917D524680027487F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C29CA6E17D524680027487F /* Foundation.framework */; };
-		0C29CA8A17D524680027487F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C29CA7217D524680027487F /* UIKit.framework */; };
-		0C29CA9217D524680027487F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CA9017D524680027487F /* InfoPlist.strings */; };
-		0C29CA9417D524680027487F /* DouradinhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CA9317D524680027487F /* DouradinhoTests.m */; };
 		0C29CAFF17D52BD70027487F /* EPCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CAAC17D52BD70027487F /* EPCCategories.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C29CB0017D52BD70027487F /* EPCDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CAAE17D52BD70027487F /* EPCDebug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C29CB2D17D52DF70027487F /* MDPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB2A17D52DF70027487F /* MDPiece.m */; };
@@ -34,8 +29,8 @@
 		0C7930B917DFDC6C00849E7B /* PlayUnlimitedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7930B717DFDC6C00849E7B /* PlayUnlimitedViewController.xib */; };
 		0CBB6BB817D544390049FFAE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB6BB617D544390049FFAE /* MainViewController.m */; };
 		0CBB6BB917D544390049FFAE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB6BB717D544390049FFAE /* MainViewController.xib */; };
-		50CBD1A617E2580C00BABC52 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1A417E2580C00BABC52 /* HelpViewController.m */; };
-		50CBD1A717E2580C00BABC52 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD1A517E2580C00BABC52 /* HelpViewController.xib */; };
+		50CBD1A617E2580C00BABC52 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1A417E2580C00BABC52 /* AboutViewController.m */; };
+		50CBD1A717E2580C00BABC52 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD1A517E2580C00BABC52 /* AboutViewController.xib */; };
 		50CBD1AD17E2597F00BABC52 /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1AB17E2597F00BABC52 /* PracticeViewController.m */; };
 		50CBD1AE17E2597F00BABC52 /* PracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD1AC17E2597F00BABC52 /* PracticeViewController.xib */; };
 		50CBD1B117E25B6900BABC52 /* MDQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1B017E25B6900BABC52 /* MDQuestion.m */; };
@@ -48,17 +43,8 @@
 		50CBD1CB17E2688900BABC52 /* EndedChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1C917E2688900BABC52 /* EndedChallengeViewController.m */; };
 		50CBD1CF17E2689E00BABC52 /* EndedChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD1CE17E2689E00BABC52 /* EndedChallengeViewController.xib */; };
 		50CBD1D217E2690F00BABC52 /* MDChallengeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1D117E2690F00BABC52 /* MDChallengeUtils.m */; };
+		50F7F37617FE0A4100415E0F /* Exercises.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F7F37817FE0A4100415E0F /* Exercises.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0C29CA8B17D524680027487F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C29CA6317D524680027487F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C29CA6A17D524680027487F;
-			remoteInfo = Douradinho;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C29CA6B17D524680027487F /* Douradinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douradinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,16 +52,13 @@
 		0C29CA7017D524680027487F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C29CA7217D524680027487F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0C29CA7617D524680027487F /* Douradinho-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Douradinho-Info.plist"; sourceTree = "<group>"; };
-		0C29CA7817D524680027487F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C29CA7A17D524680027487F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C29CA7C17D524680027487F /* Douradinho-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Douradinho-Prefix.pch"; sourceTree = "<group>"; };
 		0C29CA7D17D524680027487F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C29CA7E17D524680027487F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C29CA8017D524680027487F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0C29CA8617D524680027487F /* DouradinhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouradinhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C29CA8717D524680027487F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0C29CA8F17D524680027487F /* DouradinhoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DouradinhoTests-Info.plist"; sourceTree = "<group>"; };
-		0C29CA9117D524680027487F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C29CA9317D524680027487F /* DouradinhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouradinhoTests.m; sourceTree = "<group>"; };
 		0C29CAAB17D52BD70027487F /* EPCCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCCategories.h; sourceTree = "<group>"; };
 		0C29CAAC17D52BD70027487F /* EPCCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCCategories.m; sourceTree = "<group>"; };
@@ -104,9 +87,9 @@
 		0CBB6BB517D544390049FFAE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		0CBB6BB617D544390049FFAE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		0CBB6BB717D544390049FFAE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		50CBD1A317E2580C00BABC52 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
-		50CBD1A417E2580C00BABC52 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
-		50CBD1A517E2580C00BABC52 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		50CBD1A317E2580C00BABC52 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		50CBD1A417E2580C00BABC52 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		50CBD1A517E2580C00BABC52 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		50CBD1AA17E2597F00BABC52 /* PracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeViewController.h; sourceTree = "<group>"; };
 		50CBD1AB17E2597F00BABC52 /* PracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeViewController.m; sourceTree = "<group>"; };
 		50CBD1AC17E2597F00BABC52 /* PracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PracticeViewController.xib; sourceTree = "<group>"; };
@@ -127,6 +110,9 @@
 		50CBD1CE17E2689E00BABC52 /* EndedChallengeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndedChallengeViewController.xib; sourceTree = "<group>"; };
 		50CBD1D017E2690F00BABC52 /* MDChallengeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDChallengeUtils.h; sourceTree = "<group>"; };
 		50CBD1D117E2690F00BABC52 /* MDChallengeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDChallengeUtils.m; sourceTree = "<group>"; };
+		50F7F37917FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/Exercises.plist; sourceTree = "<group>"; };
+		50F7F37A17FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F7F37B17FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,16 +123,6 @@
 				0C29CA7117D524680027487F /* CoreGraphics.framework in Frameworks */,
 				0C29CA7317D524680027487F /* UIKit.framework in Frameworks */,
 				0C29CA6F17D524680027487F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C29CA8317D524680027487F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C29CA8817D524680027487F /* XCTest.framework in Frameworks */,
-				0C29CA8A17D524680027487F /* UIKit.framework in Frameworks */,
-				0C29CA8917D524680027487F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				0C29CA6B17D524680027487F /* Douradinho.app */,
-				0C29CA8617D524680027487F /* DouradinhoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				0C29CA7617D524680027487F /* Douradinho-Info.plist */,
+				50F7F37817FE0A4100415E0F /* Exercises.plist */,
 				0C29CA7717D524680027487F /* InfoPlist.strings */,
 				0C29CA7A17D524680027487F /* main.m */,
 				0C29CA7C17D524680027487F /* Douradinho-Prefix.pch */,
@@ -304,7 +280,9 @@
 		0C29CB6717D542ED0027487F /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				0C7930B417DFDC5600849E7B /* 111 */,
+				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
+				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
+				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
 				0C7930BA17DFDC6F00849E7B /* Unlimited */,
 			);
 			name = Game;
@@ -329,16 +307,6 @@
 			name = Play;
 			sourceTree = "<group>";
 		};
-		0C7930B417DFDC5600849E7B /* 111 */ = {
-			isa = PBXGroup;
-			children = (
-				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
-				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
-				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
-			);
-			name = 111;
-			sourceTree = "<group>";
-		};
 		0C7930BA17DFDC6F00849E7B /* Unlimited */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,9 +320,9 @@
 		50CBD1A817E2587E00BABC52 /* Help */ = {
 			isa = PBXGroup;
 			children = (
-				50CBD1A317E2580C00BABC52 /* HelpViewController.h */,
-				50CBD1A417E2580C00BABC52 /* HelpViewController.m */,
-				50CBD1A517E2580C00BABC52 /* HelpViewController.xib */,
+				50CBD1A317E2580C00BABC52 /* AboutViewController.h */,
+				50CBD1A417E2580C00BABC52 /* AboutViewController.m */,
+				50CBD1A517E2580C00BABC52 /* AboutViewController.xib */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -455,24 +423,6 @@
 			productReference = 0C29CA6B17D524680027487F /* Douradinho.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C29CA8517D524680027487F /* DouradinhoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C29CA9A17D524680027487F /* Build configuration list for PBXNativeTarget "DouradinhoTests" */;
-			buildPhases = (
-				0C29CA8217D524680027487F /* Sources */,
-				0C29CA8317D524680027487F /* Frameworks */,
-				0C29CA8417D524680027487F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C29CA8C17D524680027487F /* PBXTargetDependency */,
-			);
-			name = DouradinhoTests;
-			productName = DouradinhoTests;
-			productReference = 0C29CA8617D524680027487F /* DouradinhoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -482,8 +432,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Everton;
 				TargetAttributes = {
-					0C29CA8517D524680027487F = {
-						TestTargetID = 0C29CA6A17D524680027487F;
+					0C29CA6A17D524680027487F = {
+						DevelopmentTeam = G29UMFAC45;
 					};
 				};
 			};
@@ -493,6 +443,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				pt,
 			);
 			mainGroup = 0C29CA6217D524680027487F;
 			productRefGroup = 0C29CA6C17D524680027487F /* Products */;
@@ -500,7 +451,6 @@
 			projectRoot = "";
 			targets = (
 				0C29CA6A17D524680027487F /* Douradinho */,
-				0C29CA8517D524680027487F /* DouradinhoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -514,21 +464,14 @@
 				50CBD1CF17E2689E00BABC52 /* EndedChallengeViewController.xib in Resources */,
 				0C7930B917DFDC6C00849E7B /* PlayUnlimitedViewController.xib in Resources */,
 				0C29CA7917D524680027487F /* InfoPlist.strings in Resources */,
+				50F7F37617FE0A4100415E0F /* Exercises.plist in Resources */,
 				0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */,
 				0C29CA8117D524680027487F /* Images.xcassets in Resources */,
 				50CBD1BE17E261D700BABC52 /* CorrectAnswerViewController.xib in Resources */,
 				0CBB6BB917D544390049FFAE /* MainViewController.xib in Resources */,
 				50CBD1AE17E2597F00BABC52 /* PracticeViewController.xib in Resources */,
-				50CBD1A717E2580C00BABC52 /* HelpViewController.xib in Resources */,
+				50CBD1A717E2580C00BABC52 /* AboutViewController.xib in Resources */,
 				0C7930B217DFD8FE00849E7B /* PlayChoiceViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C29CA8417D524680027487F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C29CA9217D524680027487F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,35 +501,19 @@
 				0C7930B117DFD8FE00849E7B /* PlayChoiceViewController.m in Sources */,
 				50CBD1C217E2659C00BABC52 /* PlayPracticeViewController.m in Sources */,
 				50CBD1BD17E261D700BABC52 /* CorrectAnswerViewController.m in Sources */,
-				50CBD1A617E2580C00BABC52 /* HelpViewController.m in Sources */,
+				50CBD1A617E2580C00BABC52 /* AboutViewController.m in Sources */,
 				0C29CA7F17D524680027487F /* AppDelegate.m in Sources */,
 				0C29CA7B17D524680027487F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C29CA8217D524680027487F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C29CA9417D524680027487F /* DouradinhoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0C29CA8C17D524680027487F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C29CA6A17D524680027487F /* Douradinho */;
-			targetProxy = 0C29CA8B17D524680027487F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0C29CA7717D524680027487F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C29CA7817D524680027487F /* en */,
+				50F7F37A17FE0A5400415E0F /* pt */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -594,9 +521,17 @@
 		0C29CA9017D524680027487F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C29CA9117D524680027487F /* en */,
+				50F7F37B17FE0A5400415E0F /* pt */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F7F37817FE0A4100415E0F /* Exercises.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F7F37917FE0A5400415E0F /* pt */,
+			);
+			name = Exercises.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -677,10 +612,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44FD51DC-0D1A-49B2-BF58-3B5EC8CAC9FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -690,51 +628,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Everton Postay Cunha";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Everton Postay Cunha";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44FD51DC-0D1A-49B2-BF58-3B5EC8CAC9FF";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		0C29CA9B17D524680027487F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Douradinho.app/Douradinho";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DouradinhoTests/DouradinhoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		0C29CA9C17D524680027487F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Douradinho.app/Douradinho";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
-				INFOPLIST_FILE = "DouradinhoTests/DouradinhoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -755,15 +656,6 @@
 			buildConfigurations = (
 				0C29CA9817D524680027487F /* Debug */,
 				0C29CA9917D524680027487F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C29CA9A17D524680027487F /* Build configuration list for PBXNativeTarget "DouradinhoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C29CA9B17D524680027487F /* Debug */,
-				0C29CA9C17D524680027487F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

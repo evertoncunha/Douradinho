@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelpViewController : UIViewController
+@interface AboutViewController : UIViewController
 
+- (IBAction)tappedMoreInfo:(id)sender;
+
+- (IBAction)tappedSuggestedExercises:(id)sender;
 @end

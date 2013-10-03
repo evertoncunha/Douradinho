@@ -8,7 +8,7 @@
 
 #import "MDPiece.h"
 
-#define kSizeDif 20
+#define kSizeDif 0
 
 @implementation MDPiece
 
@@ -18,16 +18,20 @@
 		[self.delegate pieceStartedMoving:self];
 	}
 	
-	CGRect fra = self.frame;
-	fra.origin.y -= kSizeDif/2.f;
-	fra.origin.x -= kSizeDif/2.f;
-	fra.size.height += kSizeDif;
-	fra.size.width += kSizeDif;
+	UITouch *aTouch = [touches anyObject];
+	
+    _offset = [aTouch locationInView: self];
+	
+//	CGRect fra = self.frame;
+//	fra.origin.y -= kSizeDif/2.f;
+//	fra.origin.x -= kSizeDif/2.f;
+//	fra.size.height += kSizeDif;
+//	fra.size.width += kSizeDif;
 	
 	[self.superview bringSubviewToFront:self];
 	
 	[UIView beginAnimations:nil context:nil];
-	self.frame = fra;
+//	self.frame = fra;
 	self.alpha = 1.f;
 	[UIView commitAnimations];
 }
@@ -35,23 +39,23 @@
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *aTouch = [touches anyObject];
     CGPoint location = [aTouch locationInView:self.superview];
-	
     [UIView beginAnimations:nil context:nil];
-	self.center = location;
+    self.frame = CGRectMake(location.x-_offset.x, location.y-_offset.y,
+							self.frame.size.width, self.frame.size.height);
     [UIView commitAnimations];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 		
-	CGRect fra = self.frame;
-	fra.origin.y += kSizeDif/2.f;
-	fra.origin.x += kSizeDif/2.f;
-	fra.size.height -= kSizeDif;
-	fra.size.width -= kSizeDif;
+//	CGRect fra = self.frame;
+//	fra.origin.y += kSizeDif/2.f;
+//	fra.origin.x += kSizeDif/2.f;
+//	fra.size.height -= kSizeDif;
+//	fra.size.width -= kSizeDif;
 	
-    [UIView beginAnimations:nil context:nil];
-	self.frame = fra;
-    [UIView commitAnimations];
+//    [UIView beginAnimations:nil context:nil];
+//	self.frame = fra;
+//    [UIView commitAnimations];
 	
 	[self.delegate piece:self movedToLocation:self.center];
 }

@@ -19,7 +19,9 @@
 
 @end
 
-@interface MDPiece : UIImageView
+@interface MDPiece : UIImageView {
+	CGPoint _offset;
+}
 
 @property (nonatomic) IBOutlet id<MDPieceDelegate> delegate;
 

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>easy</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Uma professora indicou aos seus alunos dois livros para lerem, o primeiro tem 80 páginas e o segundo têm 123 páginas. Considerando os dois livros, quantas páginas, ao todo, os alunos deverão ler?</string>
+			<key>answer</key>
+			<string>203</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Você ganhou um saco com 56 bolachinhas e comeu 14 delas. Com quantas bolachas ficaram no saco?</string>
+			<key>answer</key>
+			<string>42</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Uma escola tem 23 funcionários, 15 professores e 180 alunos. Quantas pessoas ao todo têm na escola?</string>
+			<key>answer</key>
+			<string>218</string>
+		</dict>
+	</array>
+	<key>medium</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Uma caixa de costura tem 10 botões, 5 agulhas, 22 alfinetes e 2 tesouras. Quantos objetos estão guardados na caixa?</string>
+			<key>answer</key>
+			<string>39</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Uma caixa tem capacidade de guardar 125 lápis e outra cabem apenas 67. Quantos lápis cabem, a mais, na caixa maior?</string>
+			<key>answer</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Uma pessoa comprou uma bicicleta e vai pagá-la em 3 prestações iguais de 13 reais. Quanto ela pagará, no total, pela bicicleta?</string>
+			<key>answer</key>
+			<string>39</string>
+		</dict>
+	</array>
+	<key>hard</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Ao sair de casa para escola sua mochila tinha 2 livros, 3 cadernos, 4 canetas, 1 borracha e 1 sanduiche. Ao chegar à escola você ganhou de presente 1 dúzia de figurinhas para seu álbum.Com quantos itens você ficou na sua mochila?</string>
+			<key>answer</key>
+			<string>23</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Durante o ano, uma equipe de futebol venceu 38 partidas, empatou 158 partidas e perdeu 9 partidas. Quantas partidas essa equipe jogou durante o ano?</string>
+			<key>answer</key>
+			<string>205</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Um professor colocou no quadro a seguinte tarefa: 153 - 134. O aluno ao copiar se enganou e copiou 153 - 143. Qual a diferença do resultado que o professor queria para o resultado que o aluno copiou?</string>
+			<key>answer</key>
+			<string>9</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Susana comprou um sapato que custou R$140,00. Na liquidação ele ficou pela metade do custo. Quanto custa o sapato na liquidação?</string>
+			<key>answer</key>
+			<string>70</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Um fabricante de figurinhas produziu 30 pacotes com 10 figurinhas em cada pacote. Quantas figurinhas foram fabricadas?</string>
+			<key>answer</key>
+			<string>300</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Para um torneio de futebol, o professor de Educação Física organiza 9 equipes. Cada equipe é formada por 12 jogadores. Quantos jogadores vão disputar esse torneio? </string>
+			<key>answer</key>
+			<string>108</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Qual é o quádruplo do número 13?</string>
+			<key>answer</key>
+			<string>52</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Qual é o dobro do número 23?</string>
+			<key>answer</key>
+			<string>46</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Qual é o triplo do número 17?</string>
+			<key>answer</key>
+			<string>51</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Uma caixa tem 300 pastilhas para decoração. Vamos dividir esta caixa de pastilhas com 6 pessoas. Com quantas pastilhas cada pessoa ficará?</string>
+			<key>answer</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Você tem 125 bombons para dividir entre você e mais 4 amigos. Com quantos bombons cada um ficará?</string>
+			<key>answer</key>
+			<string>25</string>
+		</dict>
+	</array>
+</dict>
+</plist>

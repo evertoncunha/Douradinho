@@ -53,14 +53,23 @@
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceten" id="Rni-Ff-9QT" customClass="MDPieceTen">
                             <rect key="frame" x="296" y="662" width="282" height="41"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="u3B-La-m37"/>
+                            </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="V8a-tu-r1f" customClass="MDPieceHundred">
                             <rect key="frame" x="651" y="513" width="206" height="245"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="XnK-7p-UIe"/>
+                            </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="NhX-bZ-yGe" customClass="MDPieceOne">
                             <rect key="frame" x="411" y="565" width="52" height="52"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="XBI-7M-mlf"/>
+                            </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="header3" id="5Ej-Fh-Dp4">
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="77"/>

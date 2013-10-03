@@ -13,7 +13,7 @@
 
 - (IBAction)tappedPlay:(id)sender;
 
-- (IBAction)tappedHelp:(id)sender;
+- (IBAction)tappedAbout:(id)sender;
 
 - (IBAction)tappedPractice:(id)sender;
 

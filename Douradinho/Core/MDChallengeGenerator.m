@@ -12,63 +12,67 @@
 
 + (MDChallenge *)challengeWithDifficulty:(MDChallengeDifficulty)difficulty {
 	
+	MDChallenge *challenge = [[MDChallenge alloc] init];
+	challenge.difficulty = MDChallengeDifficultyHard;
+	
 	switch (difficulty) {
+		case MDChallengeDifficultyEasy:
+			[challenge.questions addObjectsFromArray:[self questionsForDifficulty:@"easy"]];
+			break;
 		case MDChallengeDifficultyMedium:
-			return [self mediumChallenge];
+			[challenge.questions addObjectsFromArray:[self questionsForDifficulty:@"medium"]];
+			break;
 		case MDChallengeDifficultyHard:
-			return [self hardChallenge];
+			[challenge.questions addObjectsFromArray:[self questionsForDifficulty:@"hard"]];
+			break;
 		default:
 			break;
 	}
 	
-	return [self easyChallenge];
-}
-
-+ (MDChallenge*)easyChallenge {
-	MDChallenge *challenge = [[MDChallenge alloc] init];
-	challenge.difficulty = MDChallengeDifficultyEasy;
-	
-	MDQuestion *q1 = [[MDQuestion alloc] init];
-	q1.question = @"Quanto é 5 + 7?";
-	q1.answer = 12;
-	
-	MDQuestion *q2 = [[MDQuestion alloc] init];
-	q2.question = @"Quanto é 10 + 11?";
-	q2.answer = 21;
-	
-	[challenge.questions addObjectsFromArray:@[q1,q2]];
 	return challenge;
 }
 
-+ (MDChallenge*)mediumChallenge {
-	MDChallenge *challenge = [[MDChallenge alloc] init];
-	challenge.difficulty = MDChallengeDifficultyMedium;
++ (NSArray*)questionsForDifficulty:(NSString*)dif {
 	
+	NSArray *theArray = [[self questionsDictionary] objectForKey:dif];
+	
+	int randomIndex = arc4random() % [theArray count];
+	
+	DLog(@"index %d", randomIndex);
+	
+	if (randomIndex < 0) {
+		randomIndex = 0;
+	}
+	if (randomIndex > [theArray count]) {
+		randomIndex = [theArray count]-1;
+	}
+	
+	NSDictionary *d = [theArray objectAtIndex:randomIndex];
 	MDQuestion *q1 = [[MDQuestion alloc] init];
-	q1.question = @"Quanto é 45 - 17?";
-	q1.answer = 28;
+	q1.question = [d objectForKey:@"question"];
+	q1.answer = [[d objectForKey:@"answer"] intValue];
+	
+	int ind2 = randomIndex+1;
+	if (ind2 > [theArray count]-1) {
+		ind2 = randomIndex-1;
+	}
+	if (ind2 < 0) {
+		ind2 = 0;
+	}
+	
+	d = [theArray objectAtIndex:ind2];
 	
 	MDQuestion *q2 = [[MDQuestion alloc] init];
-	q2.question = @"Quanto é 95 - 37?";
-	q2.answer = 58;
+	q2.question = [d objectForKey:@"question"];
+	q2.answer = [[d objectForKey:@"answer"] intValue];
 	
-	[challenge.questions addObjectsFromArray:@[q1,q2]];
-	return challenge;
+	return @[q1,q2];
+	
 }
 
-+ (MDChallenge*)hardChallenge {
-	MDChallenge *challenge = [[MDChallenge alloc] init];
-	challenge.difficulty = MDChallengeDifficultyHard;
-	
-	MDQuestion *q1 = [[MDQuestion alloc] init];
-	q1.question = @"Quanto é 142 + 118?";
-	q1.answer = 142+118;
-	
-	MDQuestion *q2 = [[MDQuestion alloc] init];
-	q2.question = @"Quanto é 250 - 77?";
-	q2.answer = 173;
-	
-	[challenge.questions addObjectsFromArray:@[q1,q2]];
-	return challenge;
++ (NSDictionary*)questionsDictionary {
+	NSString *myPlistFilePath = [[NSBundle mainBundle] pathForResource:@"Exercises" ofType:@"plist"];
+	NSDictionary *d = [NSDictionary dictionaryWithContentsOfFile: myPlistFilePath];
+	return d;
 }
 @end

@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "PlayChoiceViewController.h"
-#import "HelpViewController.h"
+#import "AboutViewController.h"
 #import "PracticeViewController.h"
 
 @interface MainViewController ()
@@ -21,8 +21,8 @@
 	[self.navigationController pushViewController:[[PlayChoiceViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
 }
 
--(void)tappedHelp:(id)sender {
-	[self.navigationController pushViewController:[[HelpViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
+-(void)tappedAbout:(id)sender {
+	[self.navigationController pushViewController:[[AboutViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
 }
 
 - (void)tappedPractice:(id)sender {
