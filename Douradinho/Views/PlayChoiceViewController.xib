@@ -69,7 +69,7 @@
                             <rect key="frame" x="571" y="294" width="368" height="141"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="42"/>
-                            <state key="normal" title="111 PEÇAS" backgroundImage="bluebtn2">
+                            <state key="normal" title="62 PEÇAS" backgroundImage="bluebtn2">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <state key="highlighted" backgroundImage="bluebtn"/>

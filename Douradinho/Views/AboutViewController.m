@@ -19,7 +19,7 @@
 }
 
 - (void)tappedSuggestedExercises:(id)sender {
-	[[UIApplication sharedApplication] openURL:[@"http://www.evertoncunha.com/douradinho/exercicios.docx" urlSafe]];
+	[[UIApplication sharedApplication] openURL:[@"http://www.evertoncunha.com/douradinho/exercicios.html" urlSafe]];
 }
 
 @end
