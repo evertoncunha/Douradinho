@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AboutViewController : UIViewController
+@interface AboutViewController : UIViewController <UIAlertViewDelegate> {
+	NSURL *_url;
+}
 
 - (IBAction)tappedMoreInfo:(id)sender;
 
