@@ -166,7 +166,7 @@
 				0C29CA7D17D524680027487F /* AppDelegate.h */,
 				0C29CA7E17D524680027487F /* AppDelegate.m */,
 				0C29CB2717D52DF70027487F /* Model */,
-				0C29CB2F17D52E060027487F /* Controller */,
+				0C29CB2F17D52E060027487F /* Controllers e Views */,
 				0C29CA7517D524680027487F /* Supporting Files */,
 			);
 			path = Douradinho;
@@ -256,15 +256,14 @@
 			path = Pieces;
 			sourceTree = "<group>";
 		};
-		0C29CB2F17D52E060027487F /* Controller */ = {
+		0C29CB2F17D52E060027487F /* Controllers e Views */ = {
 			isa = PBXGroup;
 			children = (
 				0C29CB6817D542F60027487F /* Main */,
-				50CBD1A917E2596900BABC52 /* Practice */,
-				0C7930B317DFD90300849E7B /* Play */,
+				5080FEE91804B1640026B0C2 /* Game */,
 				50CBD1A817E2587E00BABC52 /* Help */,
 			);
-			name = Controller;
+			name = "Controllers e Views";
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -275,17 +274,6 @@
 				0C29CB4F17D53D6E0027487F /* KGNoise.m */,
 			);
 			path = KGNoise;
-			sourceTree = "<group>";
-		};
-		0C29CB6717D542ED0027487F /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
-				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
-				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
-				0C7930BA17DFDC6F00849E7B /* Unlimited */,
-			);
-			name = Game;
 			sourceTree = "<group>";
 		};
 		0C29CB6817D542F60027487F /* Main */ = {
@@ -302,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				50FCCAB117F39240000750B1 /* PlayChoice */,
-				0C29CB6717D542ED0027487F /* Game */,
+				0C7930BA17DFDC6F00849E7B /* Unlimited */,
 			);
 			name = Play;
 			sourceTree = "<group>";
@@ -315,6 +303,26 @@
 				0C7930B717DFDC6C00849E7B /* PlayUnlimitedViewController.xib */,
 			);
 			name = Unlimited;
+			sourceTree = "<group>";
+		};
+		5080FEE91804B1640026B0C2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5080FEEA1804B19B0026B0C2 /* Default 62 */,
+				50CBD1A917E2596900BABC52 /* Practice */,
+				0C7930B317DFD90300849E7B /* Play */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		5080FEEA1804B19B0026B0C2 /* Default 62 */ = {
+			isa = PBXGroup;
+			children = (
+				0C29CB3017D52E060027487F /* PlayGameViewController.h */,
+				0C29CB3117D52E060027487F /* PlayGameViewController.m */,
+				0C29CB3217D52E060027487F /* PlayGameViewController.xib */,
+			);
+			name = "Default 62";
 			sourceTree = "<group>";
 		};
 		50CBD1A817E2587E00BABC52 /* Help */ = {
@@ -618,7 +626,7 @@
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3773718C-C803-4980-BEE6-97AB0CF5599B";
+				PROVISIONING_PROFILE = "47EBF853-A1C7-4BF0-8E1A-866BF442F9BD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -634,7 +642,7 @@
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3773718C-C803-4980-BEE6-97AB0CF5599B";
+				PROVISIONING_PROFILE = "47EBF853-A1C7-4BF0-8E1A-866BF442F9BD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
