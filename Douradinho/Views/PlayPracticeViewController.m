@@ -24,8 +24,6 @@
 	if (self.challenge) {
 		self.question = [self.challenge.questions firstObject];
 		if (self.question) {
-			[self.challenge.questions removeObjectAtIndex:0];
-			
 			_questionLabel.text = self.question.question;
 		}
 	}
@@ -42,6 +40,9 @@
 }
 
 - (void)questionAnswered {
+	
+	[self.challenge.questions removeObjectAtIndex:0];
+	
 	if ([self.challenge.questions count] > 0) {
 		// has next question
 		CorrectAnswerViewController *viewC = [[CorrectAnswerViewController alloc] initWithNibName:nil bundle:nil];

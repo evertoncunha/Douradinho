@@ -48,74 +48,74 @@
                             </subviews>
                             <color key="backgroundColor" red="0.60837850770000002" green="0.55538534009999996" blue="0.3216569407" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="cGy-Vq-HaQ" customClass="MDPieceOne">
-                            <rect key="frame" x="334" y="463" width="41" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <connections>
-                                <outlet property="delegate" destination="-1" id="xzQ-XF-JOv"/>
-                            </connections>
-                        </imageView>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="Fne-0x-H6k" customClass="MDPieceOne">
-                            <rect key="frame" x="334" y="498" width="41" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <connections>
-                                <outlet property="delegate" destination="-1" id="pMg-gg-kze"/>
-                            </connections>
-                        </imageView>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="gwl-5Z-hkc" customClass="MDPieceOne">
-                            <rect key="frame" x="334" y="533" width="41" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <connections>
-                                <outlet property="delegate" destination="-1" id="Lx5-hx-NhO"/>
-                            </connections>
-                        </imageView>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="JGS-yP-yGJ" customClass="MDPieceOne">
-                            <rect key="frame" x="334" y="568" width="41" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <connections>
-                                <outlet property="delegate" destination="-1" id="Hqi-JR-hCI"/>
-                            </connections>
-                        </imageView>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="9c0-vU-Svm" customClass="MDPieceOne">
-                            <rect key="frame" x="334" y="603" width="41" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <connections>
-                                <outlet property="delegate" destination="-1" id="25W-GX-UgC"/>
-                            </connections>
-                        </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="Aru-b2-8av" customClass="MDPieceOne">
-                            <rect key="frame" x="295" y="463" width="41" height="37"/>
+                            <rect key="frame" x="243" y="413" width="41" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="IFg-KJ-MFi"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="a3R-Gs-Gqr" customClass="MDPieceOne">
-                            <rect key="frame" x="295" y="498" width="41" height="37"/>
+                            <rect key="frame" x="203" y="413" width="41" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="YaK-vJ-ZDf"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="zxM-lT-SLc" customClass="MDPieceOne">
-                            <rect key="frame" x="295" y="533" width="41" height="37"/>
+                            <rect key="frame" x="83" y="413" width="41" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="eLs-nC-bGf"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="qhz-3N-UX4" customClass="MDPieceOne">
-                            <rect key="frame" x="295" y="568" width="41" height="37"/>
+                            <rect key="frame" x="123" y="413" width="41" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="WbW-5E-BgM"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="ARv-eB-cbI" customClass="MDPieceOne">
-                            <rect key="frame" x="295" y="603" width="41" height="37"/>
+                            <rect key="frame" x="163" y="413" width="41" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="7de-2u-ahH"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="RwB-Np-jC4" customClass="MDPieceOne">
+                            <rect key="frame" x="243" y="375" width="41" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="ucq-0B-r9j"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="6eP-SF-7Sb" customClass="MDPieceOne">
+                            <rect key="frame" x="203" y="375" width="41" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="865-ji-Nyl"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="5hx-6d-CTY" customClass="MDPieceOne">
+                            <rect key="frame" x="83" y="375" width="41" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="JKM-EV-tsN"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="hcU-wx-J6g" customClass="MDPieceOne">
+                            <rect key="frame" x="123" y="375" width="41" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="U9q-IG-czy"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceone" id="QCa-wV-n1p" customClass="MDPieceOne">
+                            <rect key="frame" x="163" y="375" width="41" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="YDS-cB-kxg"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="pieceten" id="HhU-HP-m3J" customClass="MDPieceTen">
@@ -175,24 +175,31 @@
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="piecetenv" id="lys-TB-qeD" customClass="MDPieceTen">
-                            <rect key="frame" x="332" y="167" width="39" height="280"/>
+                            <rect key="frame" x="333" y="463" width="39" height="280"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="Bsw-7s-Ed2"/>
                             </connections>
                         </imageView>
                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" image="piecetenv" id="c1o-nH-9WX" customClass="MDPieceTen">
-                            <rect key="frame" x="295" y="167" width="39" height="280"/>
+                            <rect key="frame" x="296" y="463" width="39" height="280"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="do2-fy-5u2"/>
                             </connections>
                         </imageView>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="BBY-u8-cUy" customClass="MDPieceHundred">
-                            <rect key="frame" x="8" y="172" width="279" height="275"/>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="CMG-cI-tjJ" customClass="MDPieceHundred">
+                            <rect key="frame" x="14" y="182" width="172" height="182"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <connections>
-                                <outlet property="delegate" destination="-1" id="VzL-ix-pAM"/>
+                                <outlet property="delegate" destination="-1" id="qWO-Fn-i9c"/>
+                            </connections>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="scaleAspectFit" image="piecehundred" id="hlE-WI-Sdo" customClass="MDPieceHundred">
+                            <rect key="frame" x="195" y="182" width="172" height="182"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="yJM-kv-frb"/>
                             </connections>
                         </imageView>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TREINANDO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0IL-XH-6zm">

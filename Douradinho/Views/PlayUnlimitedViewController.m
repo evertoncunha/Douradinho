@@ -16,7 +16,6 @@
 
 - (void)pieceStartedMoving:(MDPiece *)piece {
 	if (![self pieceIsInsideArea:piece]) {
-		DLog(@"created view");
 		MDPiece *new = [[[piece class] alloc] init];
 		new.startPoint = piece.startPoint;
 		new.frame = piece.frame;
@@ -24,7 +23,8 @@
 		new.image = piece.image;
 		new.contentMode = piece.contentMode;
 		new.userInteractionEnabled = YES;
-		[self.view insertSubview:new belowSubview:piece];
+		new.alpha = 0.8f;
+		[piece.superview insertSubview:new atIndex:0];
 		DLog(@"%@", new);
 	}
 }
@@ -34,16 +34,19 @@
 	
 	// remove same types of objects
 	
-	NSMutableArray *classes = [NSMutableArray array];
+	[self performSelector:@selector(removeSameTypesOfPiece:) withObject:piece afterDelay:0.2f];
 	
-	NSString *class = nil;
-    if (![self pieceIsInsideArea:piece]) {
-        class = NSStringFromClass([piece class]);
-        [classes addObject:class];
-    }
-	
-	
+}
+
+- (void)removeSameTypesOfPiece:(MDPiece*)piece {
 	if (![super pieceIsInsideArea:piece]) {
+		NSMutableArray *classes = [NSMutableArray array];
+		
+		NSString *class = nil;
+		
+		class = NSStringFromClass([piece class]);
+        [classes addObject:class];
+		
 		for (int i = 0; i < [self.view.subviews count]; i ++) {
 			MDPiece *p = [self.view.subviews objectAtIndex:i];
 			
@@ -53,7 +56,6 @@
 				
 				if ([classes containsObject:class]) {
 					[p removeFromSuperview];
-					DLog(@"reoved %@", p);
 					i--;
 				}
 				else {
@@ -63,7 +65,6 @@
 			
 		}
 	}
-	
 }
 
 - (BOOL)testForSameObjects {

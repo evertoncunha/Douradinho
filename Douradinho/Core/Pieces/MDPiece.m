@@ -22,16 +22,9 @@
 	
     _offset = [aTouch locationInView: self];
 	
-//	CGRect fra = self.frame;
-//	fra.origin.y -= kSizeDif/2.f;
-//	fra.origin.x -= kSizeDif/2.f;
-//	fra.size.height += kSizeDif;
-//	fra.size.width += kSizeDif;
-	
 	[self.superview bringSubviewToFront:self];
 	
 	[UIView beginAnimations:nil context:nil];
-//	self.frame = fra;
 	self.alpha = 1.f;
 	[UIView commitAnimations];
 }
@@ -46,17 +39,6 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-		
-//	CGRect fra = self.frame;
-//	fra.origin.y += kSizeDif/2.f;
-//	fra.origin.x += kSizeDif/2.f;
-//	fra.size.height -= kSizeDif;
-//	fra.size.width -= kSizeDif;
-	
-//    [UIView beginAnimations:nil context:nil];
-//	self.frame = fra;
-//    [UIView commitAnimations];
-	
 	[self.delegate piece:self movedToLocation:self.center];
 }
 
