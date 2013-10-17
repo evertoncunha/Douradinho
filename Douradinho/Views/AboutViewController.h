@@ -8,11 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AboutViewController : UIViewController <UIAlertViewDelegate> {
-	NSURL *_url;
+@interface AboutViewController : UIViewController {
+	
 }
 
-- (IBAction)tappedMoreInfo:(id)sender;
-
-- (IBAction)tappedSuggestedExercises:(id)sender;
+- (IBAction)tappedLinks:(id)sender;
 @end

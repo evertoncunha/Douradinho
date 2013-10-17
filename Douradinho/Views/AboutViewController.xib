@@ -42,7 +42,7 @@
                             </connections>
                         </button>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" id="faQ-Fy-r7I">
-                            <rect key="frame" x="20" y="584" width="544" height="164"/>
+                            <rect key="frame" x="20" y="427" width="544" height="164"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <string key="text">Trabalho de Conclusão de Curso
 Bacharelado em Sistemas de Informação
@@ -53,7 +53,7 @@ Brasil - 2013</string>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" id="7my-ck-yXa">
-                            <rect key="frame" x="572" y="584" width="432" height="164"/>
+                            <rect key="frame" x="572" y="427" width="432" height="164"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <string key="text">Everton Postay Cunha (autoria/execução)
 Dra. Lúcia Maria Martins Giraffa (orientação)
@@ -64,42 +64,24 @@ contato: ever.cunha@gmail.com</string>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yii-NJ-9Qa">
-                            <rect key="frame" x="20" y="172" width="984" height="172"/>
+                            <rect key="frame" x="20" y="191" width="984" height="172"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <string key="text">O Douradinho é um jogo educacional inspirado no Material Dourado.  O Material Dourado, originado do Material das Contas, criado pela médica e educadora italiana Maria Montessori, é utilizado como ferramenta de auxílio para o ensino do sistema de numeração decimal-posicional e das operações fundamentais da Matemática durante as séries iniciais do ensino fundamental, trabalhando no concreto para aprender o conceito. Normalmente, confeccionado em madeira, é composto por pequenos cubos, barras, placas e cubos maiores, representando, respectivamente, unidades, dezenas, centenas e milhares. É possível trabalhar com o material através de diferentes atividades que manipulam esses elementos concretos para ensinar os conceitos relacionados às unidades, dezenas e centenas.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" red="0.3803921938" green="0.16862745579999999" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bL6-Ax-3gv">
-                            <rect key="frame" x="318" y="411" width="388" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xoz-sK-5k0">
+                            <rect key="frame" x="281" y="695" width="463" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <state key="normal" title="Mais informações sobre o Material Dourado">
+                            <state key="normal" title="Ver páginas úteis com exercícios e mais informações">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="tappedMoreInfo:" destination="-1" eventType="touchUpInside" id="pZ5-ol-ye6"/>
+                                <action selector="tappedLinks:" destination="-1" eventType="touchUpInside" id="CFQ-YE-vCV"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1cp-pO-qVB">
-                            <rect key="frame" x="318" y="459" width="388" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <state key="normal" title="Exercícios sugeridos para o Douradinho">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="tappedSuggestedExercises:" destination="-1" eventType="touchUpInside" id="S1a-Lx-OoH"/>
-                            </connections>
-                        </button>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SITES ÚTEIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKv-XM-Rdh">
-                            <rect key="frame" x="447" y="375" width="131" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                            <color key="textColor" red="0.3803921938" green="0.16862745579999999" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>

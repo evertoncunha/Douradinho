@@ -43,6 +43,8 @@
 		50CBD1CB17E2688900BABC52 /* EndedChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1C917E2688900BABC52 /* EndedChallengeViewController.m */; };
 		50CBD1CF17E2689E00BABC52 /* EndedChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CBD1CE17E2689E00BABC52 /* EndedChallengeViewController.xib */; };
 		50CBD1D217E2690F00BABC52 /* MDChallengeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD1D117E2690F00BABC52 /* MDChallengeUtils.m */; };
+		50E2516818102D09001C2FBC /* UsefulLinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2516618102D09001C2FBC /* UsefulLinksViewController.m */; };
+		50E2516918102D09001C2FBC /* UsefulLinksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E2516718102D09001C2FBC /* UsefulLinksViewController.xib */; };
 		50F7F37617FE0A4100415E0F /* Exercises.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50F7F37817FE0A4100415E0F /* Exercises.plist */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +112,9 @@
 		50CBD1CE17E2689E00BABC52 /* EndedChallengeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndedChallengeViewController.xib; sourceTree = "<group>"; };
 		50CBD1D017E2690F00BABC52 /* MDChallengeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDChallengeUtils.h; sourceTree = "<group>"; };
 		50CBD1D117E2690F00BABC52 /* MDChallengeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDChallengeUtils.m; sourceTree = "<group>"; };
+		50E2516518102D09001C2FBC /* UsefulLinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsefulLinksViewController.h; sourceTree = "<group>"; };
+		50E2516618102D09001C2FBC /* UsefulLinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsefulLinksViewController.m; sourceTree = "<group>"; };
+		50E2516718102D09001C2FBC /* UsefulLinksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsefulLinksViewController.xib; sourceTree = "<group>"; };
 		50F7F37917FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/Exercises.plist; sourceTree = "<group>"; };
 		50F7F37A17FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50F7F37B17FE0A5400415E0F /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -262,7 +267,7 @@
 				0C29CB6817D542F60027487F /* Main */,
 				50CBD1A917E2596900BABC52 /* Practice */,
 				0C7930B317DFD90300849E7B /* Play */,
-				50CBD1A817E2587E00BABC52 /* Help */,
+				50CBD1A817E2587E00BABC52 /* About */,
 			);
 			name = Controller;
 			path = Views;
@@ -317,14 +322,17 @@
 			name = Unlimited;
 			sourceTree = "<group>";
 		};
-		50CBD1A817E2587E00BABC52 /* Help */ = {
+		50CBD1A817E2587E00BABC52 /* About */ = {
 			isa = PBXGroup;
 			children = (
 				50CBD1A317E2580C00BABC52 /* AboutViewController.h */,
 				50CBD1A417E2580C00BABC52 /* AboutViewController.m */,
 				50CBD1A517E2580C00BABC52 /* AboutViewController.xib */,
+				50E2516518102D09001C2FBC /* UsefulLinksViewController.h */,
+				50E2516618102D09001C2FBC /* UsefulLinksViewController.m */,
+				50E2516718102D09001C2FBC /* UsefulLinksViewController.xib */,
 			);
-			name = Help;
+			name = About;
 			sourceTree = "<group>";
 		};
 		50CBD1A917E2596900BABC52 /* Practice */ = {
@@ -465,6 +473,7 @@
 				0C7930B917DFDC6C00849E7B /* PlayUnlimitedViewController.xib in Resources */,
 				0C29CA7917D524680027487F /* InfoPlist.strings in Resources */,
 				50F7F37617FE0A4100415E0F /* Exercises.plist in Resources */,
+				50E2516918102D09001C2FBC /* UsefulLinksViewController.xib in Resources */,
 				0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */,
 				0C29CA8117D524680027487F /* Images.xcassets in Resources */,
 				50CBD1BE17E261D700BABC52 /* CorrectAnswerViewController.xib in Resources */,
@@ -500,6 +509,7 @@
 				0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */,
 				0C7930B117DFD8FE00849E7B /* PlayChoiceViewController.m in Sources */,
 				50CBD1C217E2659C00BABC52 /* PlayPracticeViewController.m in Sources */,
+				50E2516818102D09001C2FBC /* UsefulLinksViewController.m in Sources */,
 				50CBD1BD17E261D700BABC52 /* CorrectAnswerViewController.m in Sources */,
 				50CBD1A617E2580C00BABC52 /* AboutViewController.m in Sources */,
 				0C29CA7F17D524680027487F /* AppDelegate.m in Sources */,
