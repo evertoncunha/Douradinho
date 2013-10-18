@@ -25,6 +25,10 @@
 		self.question = [self.challenge.questions firstObject];
 		if (self.question) {
 			_questionLabel.text = self.question.question;
+			
+			if (IOS_VERSION_LESS_THAN(@"7.0")) {
+				[self adjustQuestionFontSize];
+			}
 		}
 	}
 }
@@ -56,6 +60,23 @@
 		viewC.challenge = self.challenge;
 		viewC.answeredQuestion = self.question;
 		[self.navigationController pushViewController:viewC animated:YES];
+	}
+}
+
+-(void)adjustQuestionFontSize {
+	float fontDelta = 3.0;
+	float fontSize = _questionLabel.font.pointSize;
+	
+	CGSize origSize = _questionLabel.bounds.size;
+	CGSize newSize = [_questionLabel sizeThatFits:CGSizeMake(origSize.width, MAXFLOAT)];
+	
+	if (newSize.height > origSize.height) {
+		fontSize -= fontDelta;
+		
+		UIFont *font = [UIFont fontWithName:_questionLabel.font.fontName size:fontSize];
+		_questionLabel.font = font;
+		
+		[self adjustQuestionFontSize];
 	}
 }
 @end
