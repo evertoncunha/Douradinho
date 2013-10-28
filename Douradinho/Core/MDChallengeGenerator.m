@@ -13,7 +13,7 @@
 + (MDChallenge *)challengeWithDifficulty:(MDChallengeDifficulty)difficulty {
 	
 	MDChallenge *challenge = [[MDChallenge alloc] init];
-	challenge.difficulty = MDChallengeDifficultyHard;
+	challenge.difficulty = difficulty;
 	
 	switch (difficulty) {
 		case MDChallengeDifficultyEasy:

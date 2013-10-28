@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4511" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EndedChallengeViewController">
             <connections>
                 <outlet property="_answerLabel" destination="u3i-YZ-9Mn" id="9AN-ZY-aKW"/>
-                <outlet property="_jogarButton" destination="Kva-50-gw1" id="iMp-q2-H8v"/>
+                <outlet property="_nextDifficultyButton" destination="Kva-50-gw1" id="YZs-Gi-lXr"/>
                 <outlet property="_questionLabel" destination="t60-Rk-3NA" id="zsk-ij-7rU"/>
                 <outlet property="view" destination="DSF-SY-kOA" id="t79-ef-T4k"/>
             </connections>

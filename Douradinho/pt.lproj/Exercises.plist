@@ -12,7 +12,7 @@
 		</dict>
 		<dict>
 			<key>question</key>
-			<string>Você ganhou um saco com 56 bolachinhas e comeu 14 delas. Com quantas bolachas ficaram no saco?</string>
+			<string>Você ganhou um saco com 56 bolachinhas e comeu 14 delas. Quantas bolachas ficaram no saco?</string>
 			<key>answer</key>
 			<string>42</string>
 		</dict>
@@ -48,7 +48,8 @@
 	<array>
 		<dict>
 			<key>question</key>
-			<string>Ao sair de casa para escola sua mochila tinha 2 livros, 3 cadernos, 4 canetas, 1 borracha e 1 sanduiche. Ao chegar à escola você ganhou de presente 1 dúzia de figurinhas para seu álbum.Com quantos itens você ficou na sua mochila?</string>
+			<string>Ao sair de casa para escola sua mochila tinha 2 livros, 3 cadernos, 4 canetas, 1 borracha e 1 sanduiche. Ao chegar à escola você ganhou de presente 1 dúzia de figurinhas para seu álbum.
+Com quantos itens você ficou na sua mochila?</string>
 			<key>answer</key>
 			<string>23</string>
 		</dict>

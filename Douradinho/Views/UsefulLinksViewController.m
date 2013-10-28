@@ -30,15 +30,21 @@
 	
 	[_ageTextField resignFirstResponder];
 	
-	int age = [[_ageTextField text] intValue];
-	
-	NSDateFormatter *df = [[NSDateFormatter alloc] init];
-	[df setDateFormat:@"YYYY"];
-	
-	int year = [[df stringFromDate:[NSDate date]] intValue];
-	
-	_linksView.hidden = !(year - age >= 18);
-	
+	if ([[_ageTextField text] length] == 4) {
+		int birth = [[_ageTextField text] intValue];
+		
+		NSDateFormatter *df = [[NSDateFormatter alloc] init];
+		[df setDateFormat:@"YYYY"];
+		
+		int year = [[df stringFromDate:[NSDate date]] intValue];
+		
+		int age = year - birth;
+		
+		_linksView.hidden = !(age >= 18);
+	}
+	else {
+		_linksView.hidden = YES;
+	}
 }
 
 - (void)openURL:(NSURL*)url {

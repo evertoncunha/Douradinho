@@ -10,7 +10,6 @@
 
 @interface PracticeViewController : UIViewController
 
-
 - (IBAction)tappedEasy:(id)sender;
 
 - (IBAction)tappedMedium:(id)sender;

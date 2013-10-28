@@ -9,7 +9,7 @@
 #import "CorrectAnswerViewController.h"
 
 @interface EndedChallengeViewController : CorrectAnswerViewController {
-	IBOutlet UIButton *_jogarButton;
+	IBOutlet UIButton *_nextDifficultyButton;
 }
 
 - (IBAction)tappedNextDifficulty:(id)sender;

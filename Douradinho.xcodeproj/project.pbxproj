@@ -22,7 +22,6 @@
 		0C29CB3417D52E060027487F /* PlayGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C29CB3217D52E060027487F /* PlayGameViewController.xib */; };
 		0C29CB3717D52E650027487F /* MDPieceTen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3617D52E650027487F /* MDPieceTen.m */; };
 		0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB3917D52E960027487F /* MDPieceHundred.m */; };
-		0C29CB5D17D53D6E0027487F /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29CB4F17D53D6E0027487F /* KGNoise.m */; };
 		0C7930B117DFD8FE00849E7B /* PlayChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */; };
 		0C7930B217DFD8FE00849E7B /* PlayChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */; };
 		0C7930B817DFDC6C00849E7B /* PlayUnlimitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7930B617DFDC6C00849E7B /* PlayUnlimitedViewController.m */; };
@@ -78,8 +77,6 @@
 		0C29CB3617D52E650027487F /* MDPieceTen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceTen.m; sourceTree = "<group>"; };
 		0C29CB3817D52E960027487F /* MDPieceHundred.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPieceHundred.h; sourceTree = "<group>"; };
 		0C29CB3917D52E960027487F /* MDPieceHundred.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPieceHundred.m; sourceTree = "<group>"; };
-		0C29CB4E17D53D6E0027487F /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
-		0C29CB4F17D53D6E0027487F /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
 		0C7930AE17DFD8FE00849E7B /* PlayChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayChoiceViewController.h; sourceTree = "<group>"; };
 		0C7930AF17DFD8FE00849E7B /* PlayChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayChoiceViewController.m; sourceTree = "<group>"; };
 		0C7930B017DFD8FE00849E7B /* PlayChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayChoiceViewController.xib; sourceTree = "<group>"; };
@@ -210,7 +207,6 @@
 		0C29CAA717D52BD70027487F /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				0C29CB3D17D53D6E0027487F /* KGNoise */,
 				0C29CAA817D52BD70027487F /* EPCKit */,
 			);
 			path = Vendors;
@@ -271,15 +267,6 @@
 			);
 			name = Controller;
 			path = Views;
-			sourceTree = "<group>";
-		};
-		0C29CB3D17D53D6E0027487F /* KGNoise */ = {
-			isa = PBXGroup;
-			children = (
-				0C29CB4E17D53D6E0027487F /* KGNoise.h */,
-				0C29CB4F17D53D6E0027487F /* KGNoise.m */,
-			);
-			path = KGNoise;
 			sourceTree = "<group>";
 		};
 		0C29CB6717D542ED0027487F /* Game */ = {
@@ -500,7 +487,6 @@
 				50CBD1D217E2690F00BABC52 /* MDChallengeUtils.m in Sources */,
 				0C29CB0017D52BD70027487F /* EPCDebug.m in Sources */,
 				0C29CB2D17D52DF70027487F /* MDPiece.m in Sources */,
-				0C29CB5D17D53D6E0027487F /* KGNoise.m in Sources */,
 				50CBD1B517E25BE300BABC52 /* MDChallenge.m in Sources */,
 				0C29CB3A17D52E960027487F /* MDPieceHundred.m in Sources */,
 				50CBD1AD17E2597F00BABC52 /* PracticeViewController.m in Sources */,

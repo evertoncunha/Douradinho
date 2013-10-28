@@ -27,10 +27,10 @@
 	
 	if (nextDifficulty != MDChallengeDifficultyNone) {
 		NSString * str = [MDChallengeUtils localizedStringForDifficulty:nextDifficulty];
-		[_jogarButton setTitle:[fstr(@"Jogar %@", str) uppercaseString] forState:UIControlStateNormal];
+		[_nextDifficultyButton setTitle:[fstr(@"Jogar %@", str) uppercaseString] forState:UIControlStateNormal];
 	}
 	else {
-		[_jogarButton setHidden:YES];
+		[_nextDifficultyButton setHidden:YES];
 	}
 }
 
