@@ -608,13 +608,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3773718C-C803-4980-BEE6-97AB0CF5599B";
+				PROVISIONING_PROFILE = "44FD51DC-0D1A-49B2-BF58-3B5EC8CAC9FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -624,13 +624,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Douradinho/Douradinho-Prefix.pch";
 				INFOPLIST_FILE = "Douradinho/Douradinho-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3773718C-C803-4980-BEE6-97AB0CF5599B";
+				PROVISIONING_PROFILE = "44FD51DC-0D1A-49B2-BF58-3B5EC8CAC9FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -18,8 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-	
 	_questionLabel.text = self.answeredQuestion.question;
 	_answerLabel.text = fstr(@"%d", self.answeredQuestion.answer);
 }

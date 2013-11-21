@@ -13,13 +13,11 @@
 @implementation MDPiece
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	
 	if ([self.delegate respondsToSelector:@selector(pieceStartedMoving:)]) {
 		[self.delegate pieceStartedMoving:self];
 	}
 	
 	UITouch *aTouch = [touches anyObject];
-	
     _offset = [aTouch locationInView: self];
 	
 	[self.superview bringSubviewToFront:self];
@@ -42,10 +40,6 @@
 	[self.delegate piece:self movedToLocation:self.center];
 }
 
-- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
-	[self touchesEnded:touches withEvent:event];
-}
-
 - (void)resetLocation {
 	CGRect fra = self.frame;
 	fra.origin = _startPoint;
@@ -55,6 +49,12 @@
 	self.alpha = 0.8f;
 	[UIView commitAnimations];
 }
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+	[self touchesEnded:touches withEvent:event];
+}
+
+
 
 - (void)awakeFromNib {
 	[super awakeFromNib];

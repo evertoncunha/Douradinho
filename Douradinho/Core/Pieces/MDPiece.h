@@ -11,23 +11,19 @@
 @class MDPiece;
 
 @protocol MDPieceDelegate <NSObject>
-
 - (void)piece:(MDPiece*)piece movedToLocation:(CGPoint)location;
-
 @optional
 - (void)pieceStartedMoving:(MDPiece*)piece;
-
 @end
 
 @interface MDPiece : UIImageView {
 	CGPoint _offset;
 }
-
 @property (nonatomic) IBOutlet id<MDPieceDelegate> delegate;
-
 @property (readonly) int value;
-
 @property (readwrite) CGPoint startPoint;
-
 - (void)resetLocation;
 @end
+
+
+

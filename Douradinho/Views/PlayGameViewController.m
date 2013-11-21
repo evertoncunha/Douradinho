@@ -15,26 +15,15 @@
 
 @implementation PlayGameViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-	
 	[self refreshCount];
 }
 
 - (void)piece:(MDPiece *)piece movedToLocation:(CGPoint)location {
-	if ([self pieceIsInsideArea:piece])
-		 {
-		// dentro
-			 
-	}
-	else {
-		// fora
-		
+	if (![self pieceIsInsideArea:piece]) {
 		[piece resetLocation];
 	}
-	
 	[self refreshCount];
 }
 
@@ -53,10 +42,8 @@
 		}
 	}
 	_countLabel.text = fstr(@"%d", val);
-	
 	_moveLabel.hidden = val > 0;
-	
 	[_countLabel.superview bringSubviewToFront:_countLabel];
-	
 }
+
 @end

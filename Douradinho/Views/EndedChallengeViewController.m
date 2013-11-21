@@ -17,7 +17,6 @@
 
 @implementation EndedChallengeViewController
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,4 +42,5 @@
 	viewC.challenge = challenge;
 	[self.navigationController pushViewController:viewC animated:YES];
 }
+
 @end
